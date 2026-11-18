@@ -1,0 +1,26 @@
+{
+  "kind": "expected_dialogues_with_executed_runtime",
+  "engine_version": "2.1.0",
+  "runtime_sha256": "e589be6421f7a7fffbcbbdff1e410f95426fb6a043d28f1bf1b8c03e9a56e17d",
+  "cases": [
+    {
+      "case": "expected_first_round_exit_v21",
+      "operations": 4,
+      "evaluated": 1,
+      "action": "stopped",
+      "record_confirmed": false,
+      "markdown_sha256": "c72716cdbbbf4e6fd454b01a7b2159b1d54913ba7a16f294c88005da6ae8fbed",
+      "trace_sha256": "336fc27c56e1dea0d6d89a3e67b2720e12f6034c970eaebd26b7d14dcc5cfcfe"
+    },
+    {
+      "case": "expected_two_rounds_report_v21",
+      "operations": 7,
+      "evaluated": 2,
+      "action": "stopped",
+      "record_confirmed": false,
+      "markdown_sha256": "bbe540a43c75e913e2fc1b5ba250ea9f131e905fb5f2acef4ae4f7b4b3e8dc2f",
+      "trace_sha256": "eb486eba9e4ae7a5bc34f51d5f791005878ea328d210f245263448858216537f"
+    }
+  ],
+  "boundary": "Student and Agent lines and entry/button choices are simulated; task, preview, calculations and reports are real local runtime outputs; no platform import, live model or actual retrieval."
+}

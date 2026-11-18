@@ -1,0 +1,39 @@
+test_bad_numeric (test_engine.EngineTests.test_bad_numeric) ... ok
+test_bad_phase (test_engine.EngineTests.test_bad_phase) ... ok
+test_case_version (test_engine.EngineTests.test_case_version) ... ok
+test_closed_edge (test_engine.EngineTests.test_closed_edge) ... ok
+test_control_change (test_engine.EngineTests.test_control_change) ... ok
+test_control_independent_closed_form (test_engine.EngineTests.test_control_independent_closed_form) ... ok
+test_control_zero (test_engine.EngineTests.test_control_zero) ... ok
+test_full_three_cases (test_engine.EngineTests.test_full_three_cases) ... ok
+test_invalid_json (test_engine.EngineTests.test_invalid_json) ... ok
+test_literal_correction_is_explicit (test_engine.EngineTests.test_literal_correction_is_explicit) ... ok
+test_literal_is_not_executable (test_engine.EngineTests.test_literal_is_not_executable) ... ok
+test_missing_plan_is_not_filled (test_engine.EngineTests.test_missing_plan_is_not_filled) ... ok
+test_no_unconfirmed_report (test_engine.EngineTests.test_no_unconfirmed_report) ... ok
+test_parallel_session_isolation (test_engine.EngineTests.test_parallel_session_isolation) ... ok
+test_quote_validation (test_engine.EngineTests.test_quote_validation) ... ok
+test_reflection_correction_and_confirmation (test_engine.EngineTests.test_reflection_correction_and_confirmation) ... ok
+test_requires_confirmation (test_engine.EngineTests.test_requires_confirmation) ... ok
+test_sensor_counts_and_boundary (test_engine.EngineTests.test_sensor_counts_and_boundary) ... ok
+test_sensor_mass_conservation (test_engine.EngineTests.test_sensor_mass_conservation) ... ok
+test_shortest_independent_enumeration (test_engine.EngineTests.test_shortest_independent_enumeration) ... ok
+test_all_original_golden_results_unchanged (test_major_groups.MajorGroupTests.test_all_original_golden_results_unchanged) ... ok
+test_catalog_matches_user_list_and_embedded_runtime (test_major_groups.MajorGroupTests.test_catalog_matches_user_list_and_embedded_runtime) ... ok
+test_cohort_is_self_reported_and_does_not_upgrade_policy (test_major_groups.MajorGroupTests.test_cohort_is_self_reported_and_does_not_upgrade_policy) ... ok
+test_featured_classes_are_not_plain_majors (test_major_groups.MajorGroupTests.test_featured_classes_are_not_plain_majors) ... ok
+test_group_independence_and_all_tasks_keep_group (test_major_groups.MajorGroupTests.test_group_independence_and_all_tasks_keep_group) ... ok
+test_invalid_group_and_candidates_fail (test_major_groups.MajorGroupTests.test_invalid_group_and_candidates_fail) ... ok
+test_math_computer_interest_is_cross_group (test_major_groups.MajorGroupTests.test_math_computer_interest_is_cross_group) ... ok
+test_membership_for_every_group_and_known_major (test_major_groups.MajorGroupTests.test_membership_for_every_group_and_known_major) ... ok
+test_old_state_requires_explicit_restart (test_major_groups.MajorGroupTests.test_old_state_requires_explicit_restart) ... ok
+test_platform_adapter_matches_engine (test_major_groups.MajorGroupTests.test_platform_adapter_matches_engine) ... ok
+test_tampered_whitelist_or_version_rejected (test_major_groups.MajorGroupTests.test_tampered_whitelist_or_version_rejected) ... ok
+test_two_boqin_groups_are_separate (test_major_groups.MajorGroupTests.test_two_boqin_groups_are_separate) ... ok
+test_unknown_can_explore_without_specific_recommendations (test_major_groups.MajorGroupTests.test_unknown_can_explore_without_specific_recommendations) ... ok
+test_unlisted_names_and_aliases_are_not_assumed (test_major_groups.MajorGroupTests.test_unlisted_names_and_aliases_are_not_assumed) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.012s
+
+OK

@@ -1,0 +1,205 @@
+DLVersion: v2
+Depends:
+  AppMap: {}
+  DataSourceMap: {}
+  DatabaseMap: {}
+  KnowledgeMap: {}
+  ModelMap:
+    db46nhqldp7id25nc970:
+      Desc: 新一代全模态大模型，原生支持文本、视觉、音频统一理解，具备1M超长上下文窗口，在Coding与Agent场景表现优秀。
+      ID: db46nhqldp7id25nc970
+      LogoPath: ''
+      Name: doubao-seed-2-1-lite
+  PluginMap: {}
+  QADataSetMap: {}
+  TermDatasetMap: {}
+  ToolMap: {}
+  WorkflowMap: {}
+Desc: 探针：验证选项按钮节点 Others 分支是否提供 USER_RESPONSE
+DisplayName: WF_Probe_OptionText
+FlowType: Workflow
+ID: c6422f307050abeca1b8
+LogoPath: ''
+MetaType: Workflow
+UniqueName: edc9a79bb90a08b50c77
+UpdatedAt: 0
+VersionCode: '-'
+VersionName: '-'
+Nodes:
+- Code: c71422e9765b226410b9
+  Configs:
+    Start:
+      InputSchema:
+      - Desc: 用户的问题
+        Name: q
+        Required: true
+        Type: 0
+      OutputSchema:
+      - Desc: 用户的问题
+        Name: q
+        Required: true
+        Type: 0
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: c71422e9765b226410b9
+  Layout:
+    X: 209.5
+    Y: 550
+  Name: Start
+  Type: Start
+- Code: cd367a14bd8b52a695bc
+  Configs:
+    InformationGathering:
+      AnswerType: option
+      ExtractParameters: true
+      ExtractSchema:
+      - Name: unused_ack
+        Type: 0
+        Desc: 平台必填占位，收到任意回答后填写received；不追问。
+      ModelConfig:
+        MaxTokens: 1024
+        ModelID: db46nhqldp7id25nc970
+        ModelName: doubao-seed-2-1-lite
+        Temperature: 0
+        TopP: 0.9
+      ModelInteractiveMode: direct
+      OptionConfig:
+        BranchMode: true
+        OptionType: solid
+        Options:
+        - CondID: class01
+          OptionID: go
+          OptionContent: 继续
+        - CondID: class_other
+          OptionID: Others
+          OptionContent: Others
+      QuestionTemplate: |-
+        ## 探针：按钮页自由文本
+
+        请**不要点按钮**，直接在输入框打一句话，例如「改成0.5试试」。
+
+        （也可以点“继续”对比按钮分支。）
+      ReaskConfig:
+        ReaskLimit: 3
+      TemplateVars: []
+  Depends:
+  - NodeCode: c71422e9765b226410b9
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: cd367a14bd8b52a695bc
+  Layout:
+    X: 618.5
+    Y: 550
+  Name: ProbeButtons
+  Type: InformationGathering
+- Code: d846c1bb4957c3130813
+  ID: d846c1bb4957c3130813
+  Name: EchoClick
+  Type: Code
+  Depends:
+  - NodeCode: cd367a14bd8b52a695bc
+    PortID: class01
+  ErrorConfig:
+    ErrorConfigType: None
+  Layout:
+    X: 900
+    Y: 300
+  Configs:
+    Code:
+      Code: |
+        def handler(params):
+            return {"final_text": "button-branch"}
+      InputVariables: []
+      Language: 1
+      Retries: 0
+      TimeoutSeconds: 60
+      OutputSchema:
+      - Name: final_text
+        Type: 0
+- Code: 05710b30ce58e1208aae
+  ID: 05710b30ce58e1208aae
+  Name: EchoOther
+  Type: Code
+  Depends:
+  - NodeCode: cd367a14bd8b52a695bc
+    PortID: class_other
+  ErrorConfig:
+    ErrorConfigType: None
+  Layout:
+    X: 900
+    Y: 500
+  Configs:
+    Code:
+      Code: |
+        def handler(params):
+            v = params.get("user_text")
+            ok = isinstance(v, str) and bool(v.strip())
+            return {"final_text": "USER_RESPONSE=" + (v if ok else "<EMPTY>")}
+      InputVariables:
+      - Name: user_text
+        NodeCode: cd367a14bd8b52a695bc
+        Path: USER_RESPONSE
+        RefType: node_field
+      Language: 1
+      Retries: 0
+      TimeoutSeconds: 60
+      OutputSchema:
+      - Name: final_text
+        Type: 0
+- Code: d7d2bd7777e01d9d7100
+  Configs:
+    Message:
+      AsContext: true
+      Content: 按钮分支结果：{{t}}
+      RenderAsReasoning: false
+      InputVariables:
+      - Name: t
+        NodeCode: d846c1bb4957c3130813
+        Path: final_text
+        RefType: node_field
+  Depends:
+  - NodeCode: d846c1bb4957c3130813
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: d7d2bd7777e01d9d7100
+  Layout:
+    X: 1027.5
+    Y: 257.5
+  Name: MsgClick
+  Type: Message
+- Code: d5b42d0cec9909b7e694
+  Configs:
+    Message:
+      AsContext: true
+      Content: 自由文本分支结果：{{t}}
+      RenderAsReasoning: false
+      InputVariables:
+      - Name: t
+        NodeCode: 05710b30ce58e1208aae
+        Path: final_text
+        RefType: node_field
+  Depends:
+  - NodeCode: 05710b30ce58e1208aae
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: d5b42d0cec9909b7e694
+  Layout:
+    X: 1027.5
+    Y: 257.5
+  Name: MsgOther
+  Type: Message
+- Code: c7dcf0b9ba234d998aa4
+  Configs:
+    End:
+      OutputType: Variable
+  Depends:
+  - NodeCode: d7d2bd7777e01d9d7100
+  - NodeCode: d5b42d0cec9909b7e694
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: c7dcf0b9ba234d998aa4
+  Layout:
+    X: 1436.5
+    Y: 550
+  Name: End
+  Type: End

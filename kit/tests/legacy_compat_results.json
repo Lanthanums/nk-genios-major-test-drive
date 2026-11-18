@@ -1,0 +1,156 @@
+{
+  "kind": "local_legacy_numeric_comparison",
+  "golden_file": "golden_results.json",
+  "golden_sha256": "93715a94a94ef7af621dae5a626590eea22fae1a30cb428f39e478118ec69153",
+  "engine_version": "2.2.0",
+  "snapshots_passed": 9,
+  "snapshots_total": 9,
+  "absolute_numeric_tolerance": 1e-06,
+  "records": [
+    {
+      "task_id": "route",
+      "case_id": "route_campus",
+      "snapshot": "base_result",
+      "phase": 0,
+      "passed": true,
+      "checked_fields": [
+        "valid",
+        "minutes",
+        "reference_min_minutes"
+      ]
+    },
+    {
+      "task_id": "route",
+      "case_id": "route_campus",
+      "snapshot": "challenge_result",
+      "phase": 1,
+      "passed": true,
+      "checked_fields": [
+        "valid",
+        "minutes",
+        "reference_min_minutes"
+      ]
+    },
+    {
+      "task_id": "route",
+      "case_id": "route_campus",
+      "snapshot": "revision_result",
+      "phase": 1,
+      "passed": true,
+      "checked_fields": [
+        "valid",
+        "minutes",
+        "reference_min_minutes"
+      ]
+    },
+    {
+      "task_id": "sensor",
+      "case_id": "sensor_luggage",
+      "snapshot": "base_result",
+      "phase": 0,
+      "passed": true,
+      "checked_fields": [
+        "valid",
+        "tp",
+        "fp",
+        "fn",
+        "tn",
+        "sample_count",
+        "false_alarm_weight",
+        "miss_weight",
+        "loss"
+      ]
+    },
+    {
+      "task_id": "sensor",
+      "case_id": "sensor_luggage",
+      "snapshot": "challenge_result",
+      "phase": 1,
+      "passed": true,
+      "checked_fields": [
+        "valid",
+        "tp",
+        "fp",
+        "fn",
+        "tn",
+        "sample_count",
+        "false_alarm_weight",
+        "miss_weight",
+        "loss"
+      ]
+    },
+    {
+      "task_id": "sensor",
+      "case_id": "sensor_luggage",
+      "snapshot": "revision_result",
+      "phase": 1,
+      "passed": true,
+      "checked_fields": [
+        "valid",
+        "tp",
+        "fp",
+        "fn",
+        "tn",
+        "sample_count",
+        "false_alarm_weight",
+        "miss_weight",
+        "loss"
+      ]
+    },
+    {
+      "task_id": "control",
+      "case_id": "control_cart",
+      "snapshot": "base_result",
+      "phase": 0,
+      "passed": true,
+      "checked_fields": [
+        "valid",
+        "gain",
+        "target",
+        "trajectory",
+        "controls",
+        "final_abs_error",
+        "max_overshoot",
+        "within_observation_settled_step",
+        "meets_teaching_target"
+      ]
+    },
+    {
+      "task_id": "control",
+      "case_id": "control_cart",
+      "snapshot": "challenge_result",
+      "phase": 1,
+      "passed": true,
+      "checked_fields": [
+        "valid",
+        "gain",
+        "target",
+        "trajectory",
+        "controls",
+        "final_abs_error",
+        "max_overshoot",
+        "within_observation_settled_step",
+        "meets_teaching_target"
+      ]
+    },
+    {
+      "task_id": "control",
+      "case_id": "control_cart",
+      "snapshot": "revision_result",
+      "phase": 1,
+      "passed": true,
+      "checked_fields": [
+        "valid",
+        "gain",
+        "target",
+        "trajectory",
+        "controls",
+        "final_abs_error",
+        "max_overshoot",
+        "within_observation_settled_step",
+        "meets_teaching_target"
+      ]
+    }
+  ],
+  "boundary": "Only core numeric/feasibility results compared; schema, wording and case_version intentionally differ. Not a platform integration test."
+}

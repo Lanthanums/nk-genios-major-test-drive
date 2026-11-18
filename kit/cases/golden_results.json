@@ -1,0 +1,287 @@
+[
+  {
+    "task_id": "route",
+    "base_plan": {
+      "path": [
+        "S",
+        "A",
+        "B",
+        "C",
+        "T"
+      ]
+    },
+    "revision_plan": {
+      "path": [
+        "S",
+        "A",
+        "C",
+        "T"
+      ]
+    },
+    "base_result": {
+      "task_id": "route",
+      "phase": 0,
+      "case_version": "1.0.0",
+      "kind": "synthetic_teaching_result",
+      "plan": {
+        "path": [
+          "S",
+          "A",
+          "B",
+          "C",
+          "T"
+        ]
+      },
+      "valid": true,
+      "problems": [],
+      "minutes": 8,
+      "reference_min_minutes": 8
+    },
+    "challenge_result": {
+      "task_id": "route",
+      "phase": 1,
+      "case_version": "1.0.0",
+      "kind": "synthetic_teaching_result",
+      "plan": {
+        "path": [
+          "S",
+          "A",
+          "B",
+          "C",
+          "T"
+        ]
+      },
+      "valid": false,
+      "problems": [
+        "B-C已封闭"
+      ],
+      "minutes": null,
+      "reference_min_minutes": 9
+    },
+    "revision_result": {
+      "task_id": "route",
+      "phase": 1,
+      "case_version": "1.0.0",
+      "kind": "synthetic_teaching_result",
+      "plan": {
+        "path": [
+          "S",
+          "A",
+          "C",
+          "T"
+        ]
+      },
+      "valid": true,
+      "problems": [],
+      "minutes": 9,
+      "reference_min_minutes": 9
+    }
+  },
+  {
+    "task_id": "sensor",
+    "base_plan": {
+      "threshold": 40
+    },
+    "revision_plan": {
+      "threshold": 65
+    },
+    "base_result": {
+      "task_id": "sensor",
+      "phase": 0,
+      "case_version": "1.0.0",
+      "kind": "synthetic_teaching_result",
+      "plan": {
+        "threshold": 40.0
+      },
+      "valid": true,
+      "tp": 7,
+      "fp": 2,
+      "fn": 0,
+      "tn": 3,
+      "sample_count": 12,
+      "false_alarm_weight": 1,
+      "miss_weight": 3,
+      "loss": 2
+    },
+    "challenge_result": {
+      "task_id": "sensor",
+      "phase": 1,
+      "case_version": "1.0.0",
+      "kind": "synthetic_teaching_result",
+      "plan": {
+        "threshold": 40.0
+      },
+      "valid": true,
+      "tp": 7,
+      "fp": 2,
+      "fn": 0,
+      "tn": 3,
+      "sample_count": 12,
+      "false_alarm_weight": 5,
+      "miss_weight": 1,
+      "loss": 10
+    },
+    "revision_result": {
+      "task_id": "sensor",
+      "phase": 1,
+      "case_version": "1.0.0",
+      "kind": "synthetic_teaching_result",
+      "plan": {
+        "threshold": 65.0
+      },
+      "valid": true,
+      "tp": 4,
+      "fp": 0,
+      "fn": 3,
+      "tn": 5,
+      "sample_count": 12,
+      "false_alarm_weight": 5,
+      "miss_weight": 1,
+      "loss": 3
+    }
+  },
+  {
+    "task_id": "control",
+    "base_plan": {
+      "k": 1.6
+    },
+    "revision_plan": {
+      "k": 0.6
+    },
+    "base_result": {
+      "task_id": "control",
+      "phase": 0,
+      "case_version": "1.0.0",
+      "kind": "synthetic_teaching_result",
+      "plan": {
+        "k": 1.6
+      },
+      "valid": true,
+      "gain": 0.5,
+      "target": 1.0,
+      "trajectory": [
+        0.0,
+        0.8,
+        0.96,
+        0.992,
+        0.9984,
+        0.99968,
+        0.999936,
+        0.999987,
+        0.999997,
+        0.999999,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controls": [
+        1.6,
+        0.32,
+        0.064,
+        0.0128,
+        0.00256,
+        0.000512,
+        0.000102,
+        2e-05,
+        4e-06,
+        1e-06,
+        0.0,
+        0.0
+      ],
+      "final_abs_error": 0.0,
+      "max_overshoot": 0.0,
+      "within_observation_settled_step": 2,
+      "meets_teaching_target": true
+    },
+    "challenge_result": {
+      "task_id": "control",
+      "phase": 1,
+      "case_version": "1.0.0",
+      "kind": "synthetic_teaching_result",
+      "plan": {
+        "k": 1.6
+      },
+      "valid": true,
+      "gain": 1.5,
+      "target": 1.0,
+      "trajectory": [
+        0.0,
+        2.4,
+        -0.6,
+        2.4,
+        -0.6,
+        2.4,
+        -0.6,
+        2.4,
+        -0.6,
+        2.4,
+        -0.6,
+        2.4,
+        -0.6
+      ],
+      "controls": [
+        1.6,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        -2.0
+      ],
+      "final_abs_error": 1.6,
+      "max_overshoot": 1.4,
+      "within_observation_settled_step": null,
+      "meets_teaching_target": false
+    },
+    "revision_result": {
+      "task_id": "control",
+      "phase": 1,
+      "case_version": "1.0.0",
+      "kind": "synthetic_teaching_result",
+      "plan": {
+        "k": 0.6
+      },
+      "valid": true,
+      "gain": 1.5,
+      "target": 1.0,
+      "trajectory": [
+        0.0,
+        0.9,
+        0.99,
+        0.999,
+        0.9999,
+        0.99999,
+        0.999999,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "controls": [
+        0.6,
+        0.06,
+        0.006,
+        0.0006,
+        6e-05,
+        6e-06,
+        1e-06,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "final_abs_error": 0.0,
+      "max_overshoot": 0.0,
+      "within_observation_settled_step": 2,
+      "meets_teaching_target": true
+    }
+  }
+]

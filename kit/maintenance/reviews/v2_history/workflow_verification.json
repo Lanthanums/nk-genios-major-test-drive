@@ -1,0 +1,35 @@
+{
+  "tests_run": 13,
+  "failures": 0,
+  "errors": 0,
+  "fixed_case_full_replays": 27,
+  "workflows": [
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "nodes": 74,
+      "ends": 1,
+      "bytes": 1140487
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "nodes": 70,
+      "ends": 1,
+      "bytes": 1112793
+    },
+    {
+      "file": "WF_KB_Practice_Draft_v2.yaml",
+      "nodes": 6,
+      "ends": 1,
+      "bytes": 29668
+    },
+    {
+      "file": "WF_Major_Knowledge_v2.yaml",
+      "nodes": 6,
+      "ends": 1,
+      "bytes": 29620
+    }
+  ],
+  "live_platform_import": false,
+  "live_models": false,
+  "real_retrieval": false
+}

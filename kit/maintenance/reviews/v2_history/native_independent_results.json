@@ -1,0 +1,381 @@
+{
+  "independent_graphs": [
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "sha256": "3eaccbb2d0807e99bd6dbaff8e6d754ea397a48e2e548c827e89766a90019a07",
+      "nodes": 74,
+      "code_nodes": 38,
+      "single_end": true,
+      "upstream_refs": true,
+      "knowledge_matches_sample": true
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "sha256": "852937b7ae97dab7bbba886c2c1020b4890c892016087cf302103c61d5fce8a2",
+      "nodes": 70,
+      "code_nodes": 36,
+      "single_end": true,
+      "upstream_refs": true,
+      "knowledge_matches_sample": true
+    },
+    {
+      "file": "WF_KB_Practice_Draft_v2.yaml",
+      "sha256": "9f7527e160b4e6a409bfc053b0879d03a528d5e55bee86783bbf33fe35c434fe",
+      "nodes": 6,
+      "code_nodes": 2,
+      "single_end": true,
+      "upstream_refs": true,
+      "knowledge_matches_sample": true
+    },
+    {
+      "file": "WF_Major_Knowledge_v2.yaml",
+      "sha256": "327e7992838ed778f6d75b95b26b296523d342dd711ca95f23393e2982eac97b",
+      "nodes": 6,
+      "code_nodes": 2,
+      "single_end": true,
+      "upstream_refs": true,
+      "knowledge_matches_sample": true
+    }
+  ],
+  "scenarios": [
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "normal",
+      "end": true,
+      "executed_nodes": 48
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "base_stop",
+      "end": true,
+      "executed_nodes": 20
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "base_confirm_stop",
+      "end": true,
+      "executed_nodes": 23
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "base_retry_stop",
+      "end": true,
+      "executed_nodes": 26
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "base_retry_success",
+      "end": true,
+      "executed_nodes": 51
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "base_retry_fail",
+      "end": true,
+      "executed_nodes": 26
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "revise_stop",
+      "end": true,
+      "executed_nodes": 34
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "revise_confirm_stop",
+      "end": true,
+      "executed_nodes": 37
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "revise_retry_stop",
+      "end": true,
+      "executed_nodes": 40
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "revise_retry_success",
+      "end": true,
+      "executed_nodes": 51
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "revise_retry_fail",
+      "end": true,
+      "executed_nodes": 40
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "model_invalid_recovery",
+      "end": true,
+      "executed_nodes": 48
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "menu_error",
+      "end": true,
+      "executed_nodes": 8
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "selection_error",
+      "end": true,
+      "executed_nodes": 11
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "record_decline",
+      "end": true,
+      "executed_nodes": 48
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "record_retry",
+      "end": true,
+      "executed_nodes": 50
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "record_retry_fail",
+      "end": true,
+      "executed_nodes": 50
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "reflection_stop",
+      "end": true,
+      "executed_nodes": 45
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "record_stop",
+      "end": true,
+      "executed_nodes": 48
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "record_retry_stop",
+      "end": true,
+      "executed_nodes": 50
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "scenario": "explore_no_hits",
+      "end": true
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "normal",
+      "end": true,
+      "executed_nodes": 44
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "base_stop",
+      "end": true,
+      "executed_nodes": 16
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "base_confirm_stop",
+      "end": true,
+      "executed_nodes": 19
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "base_retry_stop",
+      "end": true,
+      "executed_nodes": 22
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "base_retry_success",
+      "end": true,
+      "executed_nodes": 47
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "base_retry_fail",
+      "end": true,
+      "executed_nodes": 22
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "revise_stop",
+      "end": true,
+      "executed_nodes": 30
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "revise_confirm_stop",
+      "end": true,
+      "executed_nodes": 33
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "revise_retry_stop",
+      "end": true,
+      "executed_nodes": 36
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "revise_retry_success",
+      "end": true,
+      "executed_nodes": 47
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "revise_retry_fail",
+      "end": true,
+      "executed_nodes": 36
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "model_invalid_recovery",
+      "end": true,
+      "executed_nodes": 44
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "menu_error",
+      "end": true,
+      "executed_nodes": 8
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "selection_error",
+      "end": true,
+      "executed_nodes": 11
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "record_decline",
+      "end": true,
+      "executed_nodes": 44
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "record_retry",
+      "end": true,
+      "executed_nodes": 46
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "record_retry_fail",
+      "end": true,
+      "executed_nodes": 46
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "reflection_stop",
+      "end": true,
+      "executed_nodes": 41
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "record_stop",
+      "end": true,
+      "executed_nodes": 44
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "record_retry_stop",
+      "end": true,
+      "executed_nodes": 46
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "scenario": "explore_no_hits",
+      "end": true
+    },
+    {
+      "file": "WF_KB_Practice_Draft_v2.yaml",
+      "scenario": "knowledge_hit",
+      "end": true
+    },
+    {
+      "file": "WF_KB_Practice_Draft_v2.yaml",
+      "scenario": "knowledge_empty",
+      "end": true
+    },
+    {
+      "file": "WF_Major_Knowledge_v2.yaml",
+      "scenario": "knowledge_hit",
+      "end": true
+    },
+    {
+      "file": "WF_Major_Knowledge_v2.yaml",
+      "scenario": "knowledge_empty",
+      "end": true
+    }
+  ],
+  "known_failures": [],
+  "code_coverage": [
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "covered": 36,
+      "total": 38,
+      "uncovered": [
+        "XAdvanceError",
+        "XDraftError"
+      ]
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "covered": 34,
+      "total": 36,
+      "uncovered": [
+        "XAdvanceError",
+        "XDraftError"
+      ]
+    },
+    {
+      "file": "WF_KB_Practice_Draft_v2.yaml",
+      "covered": 2,
+      "total": 2,
+      "uncovered": []
+    },
+    {
+      "file": "WF_Major_Knowledge_v2.yaml",
+      "covered": 2,
+      "total": 2,
+      "uncovered": []
+    }
+  ],
+  "direct_schema_checks": [
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "node": "XAdvanceError",
+      "all_declared_fields_returned": true
+    },
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "node": "XDraftError",
+      "all_declared_fields_returned": true
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "node": "XAdvanceError",
+      "all_declared_fields_returned": true
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "node": "XDraftError",
+      "all_declared_fields_returned": true
+    }
+  ],
+  "knowledge_checks": {
+    "professional_profiles": 33,
+    "professional_cards": 33,
+    "source_records": 36,
+    "all_profile_refs_exist": true,
+    "all_knowledge_card_source_ids_exist": true,
+    "no_none_dates": true,
+    "no_single_character_limits": true,
+    "new_metrology_sources": [
+      "CONCEPT-NIM-AUDIT",
+      "CONCEPT-NIM-MATERIAL-COMPARISON",
+      "CONCEPT-NIM-REFERENCE"
+    ]
+  }
+}

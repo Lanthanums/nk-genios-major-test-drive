@@ -1,0 +1,1270 @@
+[
+  {
+    "node": "Start",
+    "type": "Start",
+    "output": {
+      "task_id": "finance",
+      "reported_group_text": "数智经济金融"
+    }
+  },
+  {
+    "node": "InitSelection",
+    "type": "Code",
+    "input": {
+      "op": "init_selection",
+      "task_id": "finance",
+      "reported_group_text": "数智经济金融"
+    },
+    "output": {
+      "action": "known_group",
+      "state_json": "",
+      "prompt": "**这次会怎么进行**\n\n先选一个小情境，试试你的方案；如果愿意，再看看条件改变后会怎样。最后整理一份你能核对的探索记录。\n\n*不用做满全程。你可以随时选择结束，已经做过的内容会保留；不会把活动当成能力或专业适配测评。*\n\n**这次使用的大类信息：** 数智经济金融。",
+      "preview": "",
+      "feedback": "",
+      "result_json": "",
+      "report": "",
+      "error": "",
+      "case_id": "",
+      "task_id": "",
+      "normalizer_context": "",
+      "knowledge_query": "",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "",
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\"}",
+      "display_text": "**这次会怎么进行**\n\n先选一个小情境，试试你的方案；如果愿意，再看看条件改变后会怎样。最后整理一份你能核对的探索记录。\n\n*不用做满全程。你可以随时选择结束，已经做过的内容会保留；不会把活动当成能力或专业适配测评。*\n\n**这次使用的大类信息：** 数智经济金融。",
+      "mode": "",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "",
+      "choiceB": "",
+      "choiceC": "",
+      "record_summary": "",
+      "ok": true
+    }
+  },
+  {
+    "node": "Welcome",
+    "type": "Message",
+    "message": "**这次会怎么进行**\n\n先选一个小情境，试试你的方案；如果愿意，再看看条件改变后会怎样。最后整理一份你能核对的探索记录。\n\n*不用做满全程。你可以随时选择结束，已经做过的内容会保留；不会把活动当成能力或专业适配测评。*\n\n**这次使用的大类信息：** 数智经济金融。",
+    "output": {}
+  },
+  {
+    "node": "GroupGate",
+    "type": "Condition",
+    "selected_port": "else",
+    "output": {}
+  },
+  {
+    "node": "KnownGroup",
+    "type": "Code",
+    "input": {
+      "state_json": "",
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\"}",
+      "action": "known_group",
+      "ok": true,
+      "prompt": "**这次会怎么进行**\n\n先选一个小情境，试试你的方案；如果愿意，再看看条件改变后会怎样。最后整理一份你能核对的探索记录。\n\n*不用做满全程。你可以随时选择结束，已经做过的内容会保留；不会把活动当成能力或专业适配测评。*\n\n**这次使用的大类信息：** 数智经济金融。",
+      "preview": "",
+      "feedback": "",
+      "display_text": "**这次会怎么进行**\n\n先选一个小情境，试试你的方案；如果愿意，再看看条件改变后会怎样。最后整理一份你能核对的探索记录。\n\n*不用做满全程。你可以随时选择结束，已经做过的内容会保留；不会把活动当成能力或专业适配测评。*\n\n**这次使用的大类信息：** 数智经济金融。",
+      "normalizer_context": "",
+      "mode": "",
+      "choiceA": "",
+      "choiceB": "",
+      "choiceC": "",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "result_json": "",
+      "knowledge_query": "",
+      "reflection_prompt": "",
+      "record_summary": ""
+    },
+    "output": {
+      "state_json": "",
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\"}",
+      "action": "known_group",
+      "ok": true,
+      "prompt": "**这次会怎么进行**\n\n先选一个小情境，试试你的方案；如果愿意，再看看条件改变后会怎样。最后整理一份你能核对的探索记录。\n\n*不用做满全程。你可以随时选择结束，已经做过的内容会保留；不会把活动当成能力或专业适配测评。*\n\n**这次使用的大类信息：** 数智经济金融。",
+      "preview": "",
+      "feedback": "",
+      "display_text": "**这次会怎么进行**\n\n先选一个小情境，试试你的方案；如果愿意，再看看条件改变后会怎样。最后整理一份你能核对的探索记录。\n\n*不用做满全程。你可以随时选择结束，已经做过的内容会保留；不会把活动当成能力或专业适配测评。*\n\n**这次使用的大类信息：** 数智经济金融。",
+      "normalizer_context": "",
+      "mode": "",
+      "choiceA": "",
+      "choiceB": "",
+      "choiceC": "",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "result_json": "",
+      "knowledge_query": "",
+      "reflection_prompt": "",
+      "record_summary": ""
+    }
+  },
+  {
+    "node": "ProfileReady",
+    "type": "VariableMerge",
+    "output": {
+      "state_json": "",
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\"}",
+      "action": "known_group",
+      "ok": true,
+      "prompt": "**这次会怎么进行**\n\n先选一个小情境，试试你的方案；如果愿意，再看看条件改变后会怎样。最后整理一份你能核对的探索记录。\n\n*不用做满全程。你可以随时选择结束，已经做过的内容会保留；不会把活动当成能力或专业适配测评。*\n\n**这次使用的大类信息：** 数智经济金融。",
+      "preview": "",
+      "feedback": "",
+      "display_text": "**这次会怎么进行**\n\n先选一个小情境，试试你的方案；如果愿意，再看看条件改变后会怎样。最后整理一份你能核对的探索记录。\n\n*不用做满全程。你可以随时选择结束，已经做过的内容会保留；不会把活动当成能力或专业适配测评。*\n\n**这次使用的大类信息：** 数智经济金融。",
+      "normalizer_context": "",
+      "mode": "",
+      "choiceA": "",
+      "choiceB": "",
+      "choiceC": "",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "result_json": "",
+      "knowledge_query": "",
+      "reflection_prompt": "",
+      "record_summary": ""
+    }
+  },
+  {
+    "node": "PrepareCases",
+    "type": "Code",
+    "input": {
+      "op": "prepare_cases",
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\"}"
+    },
+    "output": {
+      "action": "menu",
+      "state_json": "",
+      "prompt": "## 选一个更想试试的情境\n\n这三个情境练习同一类方法，但问题和条件不同。点一个你更想了解的就好。\n\n*题目使用编写的教学数据，不是真实校内考题。*",
+      "preview": "",
+      "feedback": "",
+      "result_json": "",
+      "report": "",
+      "error": "",
+      "case_id": "",
+      "task_id": "",
+      "normalizer_context": "",
+      "knowledge_query": "",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "",
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\",\"case_ids\":[\"finance_promotion\",\"finance_fraud\",\"finance_publicdata\"]}",
+      "display_text": "",
+      "mode": "",
+      "case1": "优惠券带来了增长吗",
+      "case2": "99%准确为何没用",
+      "case3": "数据服务上线值不值",
+      "choiceA": "",
+      "choiceB": "",
+      "choiceC": "",
+      "record_summary": "",
+      "ok": true
+    }
+  },
+  {
+    "node": "ActivityGate",
+    "type": "Condition",
+    "selected_port": "else",
+    "output": {}
+  },
+  {
+    "node": "ActivityAlreadySelected",
+    "type": "Code",
+    "input": {
+      "state_json": "",
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\",\"case_ids\":[\"finance_promotion\",\"finance_fraud\",\"finance_publicdata\"]}",
+      "action": "menu",
+      "ok": true,
+      "prompt": "## 选一个更想试试的情境\n\n这三个情境练习同一类方法，但问题和条件不同。点一个你更想了解的就好。\n\n*题目使用编写的教学数据，不是真实校内考题。*",
+      "preview": "",
+      "feedback": "",
+      "display_text": "",
+      "normalizer_context": "",
+      "mode": "",
+      "choiceA": "",
+      "choiceB": "",
+      "choiceC": "",
+      "case1": "优惠券带来了增长吗",
+      "case2": "99%准确为何没用",
+      "case3": "数据服务上线值不值",
+      "result_json": "",
+      "knowledge_query": "",
+      "reflection_prompt": "",
+      "record_summary": ""
+    },
+    "output": {
+      "state_json": "",
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\",\"case_ids\":[\"finance_promotion\",\"finance_fraud\",\"finance_publicdata\"]}",
+      "action": "menu",
+      "ok": true,
+      "prompt": "## 选一个更想试试的情境\n\n这三个情境练习同一类方法，但问题和条件不同。点一个你更想了解的就好。\n\n*题目使用编写的教学数据，不是真实校内考题。*",
+      "preview": "",
+      "feedback": "",
+      "display_text": "",
+      "normalizer_context": "",
+      "mode": "",
+      "choiceA": "",
+      "choiceB": "",
+      "choiceC": "",
+      "case1": "优惠券带来了增长吗",
+      "case2": "99%准确为何没用",
+      "case3": "数据服务上线值不值",
+      "result_json": "",
+      "knowledge_query": "",
+      "reflection_prompt": "",
+      "record_summary": ""
+    }
+  },
+  {
+    "node": "MenuReady",
+    "type": "VariableMerge",
+    "output": {
+      "state_json": "",
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\",\"case_ids\":[\"finance_promotion\",\"finance_fraud\",\"finance_publicdata\"]}",
+      "action": "menu",
+      "ok": true,
+      "prompt": "## 选一个更想试试的情境\n\n这三个情境练习同一类方法，但问题和条件不同。点一个你更想了解的就好。\n\n*题目使用编写的教学数据，不是真实校内考题。*",
+      "preview": "",
+      "feedback": "",
+      "display_text": "",
+      "normalizer_context": "",
+      "mode": "",
+      "choiceA": "",
+      "choiceB": "",
+      "choiceC": "",
+      "case1": "优惠券带来了增长吗",
+      "case2": "99%准确为何没用",
+      "case3": "数据服务上线值不值",
+      "result_json": "",
+      "knowledge_query": "",
+      "reflection_prompt": "",
+      "record_summary": ""
+    }
+  },
+  {
+    "node": "MenuGate",
+    "type": "Condition",
+    "selected_port": "if01",
+    "output": {}
+  },
+  {
+    "node": "CaseSelect",
+    "type": "InformationGathering",
+    "question": "## 选一个更想试试的情境\n\n这三个情境练习同一类方法，但问题和条件不同。点一个你更想了解的就好。\n\n*题目使用编写的教学数据，不是真实校内考题。*\n\n这次只做其中一个情境；之后可以再试其他的。",
+    "buttons": [
+      {
+        "CondID": "class01",
+        "OptionID": "case1",
+        "OptionContent": "优惠券带来了增长吗"
+      },
+      {
+        "CondID": "class02",
+        "OptionID": "case2",
+        "OptionContent": "99%准确为何没用"
+      },
+      {
+        "CondID": "class03",
+        "OptionID": "case3",
+        "OptionContent": "数据服务上线值不值"
+      },
+      {
+        "CondID": "class04",
+        "OptionID": "finish",
+        "OptionContent": "先不做了"
+      }
+    ],
+    "selected_port": "class01",
+    "user_action": {
+      "OptionID": "case1",
+      "CondID": "class01",
+      "raw": "优惠券带来了增长吗"
+    },
+    "output": {
+      "USER_RESPONSE": "优惠券带来了增长吗",
+      "optionId": "case1",
+      "optionContent": "优惠券带来了增长吗",
+      "OptionID": "case1",
+      "OptionContent": "优惠券带来了增长吗",
+      "unused_ack": "received"
+    }
+  },
+  {
+    "node": "CasePick1",
+    "type": "Code",
+    "input": {
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\",\"case_ids\":[\"finance_promotion\",\"finance_fraud\",\"finance_publicdata\"]}",
+      "case_index": 0
+    },
+    "output": {
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\",\"case_ids\":[\"finance_promotion\",\"finance_fraud\",\"finance_publicdata\"]}",
+      "case_index": 0
+    }
+  },
+  {
+    "node": "CasePickMerge",
+    "type": "VariableMerge",
+    "output": {
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\",\"case_ids\":[\"finance_promotion\",\"finance_fraud\",\"finance_publicdata\"]}",
+      "case_index": 0
+    }
+  },
+  {
+    "node": "StartCase",
+    "type": "Code",
+    "input": {
+      "op": "select_case",
+      "selection_json": "{\"version\":\"2.1.0\",\"task_id\":\"finance\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"group_raw\":\"数智经济金融\",\"case_ids\":[\"finance_promotion\",\"finance_fraud\",\"finance_publicdata\"]}",
+      "case_index": 0
+    },
+    "output": {
+      "action": "awaiting_plan",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"awaiting_plan\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\"}",
+      "prompt": "## 优惠券带来了增长吗\n\n*这是为理解工作方法编写的教学情境，数据为合成，不用来判断你的能力或专业适合程度。*\n\n合成商店本周发券且销量120，上周未发券销量100。\n\n### 先看看现在的情况\n\n要判断增加的20是否由优惠券造成。\n\n- **方案 A**：还可能有周末、广告等变化，前后对比不足以单独归因。\n\n- **方案 B**：销量增加20，所以优惠券因果效果就是20。\n\n- **方案 C**：有销售数据就不需要对照。\n\n**你会怎么选？**\n\n请点选一个方案。想补充自己的考虑，可以在核对方案时选择“我想改一下”，再告诉我。还拿不准的话，可以先要一点提示。\n\n*可以求提示，也可以随时结束并查看已有记录。*",
+      "preview": "",
+      "feedback": "",
+      "result_json": "",
+      "report": "",
+      "error": "",
+      "case_id": "finance_promotion",
+      "task_id": "finance",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"B\":\"销量增加20，所以优惠券因果效果就是20。\",\"C\":\"有销售数据就不需要对照。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "selection_json": "",
+      "display_text": "**现在：先试一个方案**\n\n*一轮体验会试一个方案，再看看条件变化后会怎样，最后留下探索记录。已试算0次。你随时可以说“结束并给我报告”，直接查看已完成的内容；没做的部分不会补写。*\n\n## 优惠券带来了增长吗\n\n*这是为理解工作方法编写的教学情境，数据为合成，不用来判断你的能力或专业适合程度。*\n\n合成商店本周发券且销量120，上周未发券销量100。\n\n### 先看看现在的情况\n\n要判断增加的20是否由优惠券造成。\n\n- **方案 A**：还可能有周末、广告等变化，前后对比不足以单独归因。\n\n- **方案 B**：销量增加20，所以优惠券因果效果就是20。\n\n- **方案 C**：有销售数据就不需要对照。\n\n**你会怎么选？**\n\n请点选一个方案。想补充自己的考虑，可以在核对方案时选择“我想改一下”，再告诉我。还拿不准的话，可以先要一点提示。\n\n*可以求提示，也可以随时结束并查看已有记录。*",
+      "mode": "choice",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "还可能有周末、广告等变化，前后对比不足以单独归因。",
+      "choiceB": "销量增加20，所以优惠券因果效果就是20。",
+      "choiceC": "有销售数据就不需要对照。",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **0 个方案**。计算过程会原样放进最终记录。\n\n你暂时没有填写感受，这部分会如实留空。\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。",
+      "ok": true
+    }
+  },
+  {
+    "node": "StartGate",
+    "type": "Condition",
+    "selected_port": "if01",
+    "output": {}
+  },
+  {
+    "node": "BridgeMessage",
+    "type": "Message",
+    "message": "*这是一个合成教学情境，只体验专业可能用到的一种方法。做完后可以继续了解相关专业的课程和实际工作。*",
+    "output": {}
+  },
+  {
+    "node": "BMode",
+    "type": "Condition",
+    "selected_port": "if01",
+    "output": {}
+  },
+  {
+    "node": "BChoice",
+    "type": "InformationGathering",
+    "question": "## 第一次尝试\n\n## 优惠券带来了增长吗\n\n*这是为理解工作方法编写的教学情境，数据为合成，不用来判断你的能力或专业适合程度。*\n\n合成商店本周发券且销量120，上周未发券销量100。\n\n### 先看看现在的情况\n\n要判断增加的20是否由优惠券造成。\n\n- **方案 A**：还可能有周末、广告等变化，前后对比不足以单独归因。\n\n- **方案 B**：销量增加20，所以优惠券因果效果就是20。\n\n- **方案 C**：有销售数据就不需要对照。\n\n**你会怎么选？**\n\n请点选一个方案。想补充自己的考虑，可以在核对方案时选择“我想改一下”，再告诉我。还拿不准的话，可以先要一点提示。\n\n*可以求提示，也可以随时结束并查看已有记录。*\n\n请选择你想尝试的做法；也可以看提示或结束。",
+    "buttons": [
+      {
+        "CondID": "class01",
+        "OptionID": "A",
+        "OptionContent": "还可能有周末、广告等变化，前后对比不足以单独归因。"
+      },
+      {
+        "CondID": "class02",
+        "OptionID": "B",
+        "OptionContent": "销量增加20，所以优惠券因果效果就是20。"
+      },
+      {
+        "CondID": "class03",
+        "OptionID": "C",
+        "OptionContent": "有销售数据就不需要对照。"
+      },
+      {
+        "CondID": "class04",
+        "OptionID": "hint",
+        "OptionContent": "给我一点提示"
+      },
+      {
+        "CondID": "class05",
+        "OptionID": "finish",
+        "OptionContent": "结束并查看记录"
+      }
+    ],
+    "selected_port": "class01",
+    "user_action": {
+      "OptionID": "A",
+      "CondID": "class01",
+      "raw": "还可能有周末、广告等变化，前后对比不足以单独归因。"
+    },
+    "output": {
+      "USER_RESPONSE": "还可能有周末、广告等变化，前后对比不足以单独归因。",
+      "optionId": "A",
+      "optionContent": "还可能有周末、广告等变化，前后对比不足以单独归因。",
+      "OptionID": "A",
+      "OptionContent": "还可能有周末、广告等变化，前后对比不足以单独归因。",
+      "unused_ack": "received"
+    }
+  },
+  {
+    "node": "BPickA",
+    "type": "Code",
+    "input": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"awaiting_plan\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\"}",
+      "choice": "A",
+      "user_text": "还可能有周末、广告等变化，前后对比不足以单独归因。"
+    },
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"awaiting_plan\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\"}",
+      "choice": "A",
+      "user_text": "还可能有周末、广告等变化，前后对比不足以单独归因。"
+    }
+  },
+  {
+    "node": "BChoiceMerge",
+    "type": "VariableMerge",
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"awaiting_plan\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\"}",
+      "choice": "A",
+      "user_text": "还可能有周末、广告等变化，前后对比不足以单独归因。"
+    }
+  },
+  {
+    "node": "BButtonPropose",
+    "type": "Code",
+    "input": {
+      "op": "submit_button",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"awaiting_plan\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\"}",
+      "choice": "A",
+      "user_text": "还可能有周末、广告等变化，前后对比不足以单独归因。"
+    },
+    "output": {
+      "action": "awaiting_confirmation",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"awaiting_confirmation\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}}],\"pending_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}",
+      "prompt": "",
+      "preview": "### 先核对一下，我有没有理解对\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n如果对，选择“就按这个试”。想改的话，请先选择“我想改一下”，再告诉我新方案。",
+      "feedback": "*想修改请先选择“我想改一下”，再说明你想换成哪种做法，也可以补充理由。*",
+      "result_json": "",
+      "report": "",
+      "error": "",
+      "case_id": "finance_promotion",
+      "task_id": "finance",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"B\":\"销量增加20，所以优惠券因果效果就是20。\",\"C\":\"有销售数据就不需要对照。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "selection_json": "",
+      "display_text": "**现在：核对你刚才的方案**\n\n*一轮体验会试一个方案，再看看条件变化后会怎样，最后留下探索记录。已试算0次。你随时可以说“结束并给我报告”，直接查看已完成的内容；没做的部分不会补写。*\n\n### 先核对一下，我有没有理解对\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n如果对，选择“就按这个试”。想改的话，请先选择“我想改一下”，再告诉我新方案。\n\n*想修改请先选择“我想改一下”，再说明你想换成哪种做法，也可以补充理由。*",
+      "mode": "choice",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "还可能有周末、广告等变化，前后对比不足以单独归因。",
+      "choiceB": "销量增加20，所以优惠券因果效果就是20。",
+      "choiceC": "有销售数据就不需要对照。",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **0 个方案**。计算过程会原样放进最终记录。\n\n你暂时没有填写感受，这部分会如实留空。\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。",
+      "ok": true
+    }
+  },
+  {
+    "node": "BCandidate",
+    "type": "VariableMerge",
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"awaiting_confirmation\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}}],\"pending_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}",
+      "selection_json": "",
+      "action": "awaiting_confirmation",
+      "ok": true,
+      "prompt": "",
+      "preview": "### 先核对一下，我有没有理解对\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n如果对，选择“就按这个试”。想改的话，请先选择“我想改一下”，再告诉我新方案。",
+      "feedback": "*想修改请先选择“我想改一下”，再说明你想换成哪种做法，也可以补充理由。*",
+      "display_text": "**现在：核对你刚才的方案**\n\n*一轮体验会试一个方案，再看看条件变化后会怎样，最后留下探索记录。已试算0次。你随时可以说“结束并给我报告”，直接查看已完成的内容；没做的部分不会补写。*\n\n### 先核对一下，我有没有理解对\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n如果对，选择“就按这个试”。想改的话，请先选择“我想改一下”，再告诉我新方案。\n\n*想修改请先选择“我想改一下”，再说明你想换成哪种做法，也可以补充理由。*",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"B\":\"销量增加20，所以优惠券因果效果就是20。\",\"C\":\"有销售数据就不需要对照。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "mode": "choice",
+      "choiceA": "还可能有周末、广告等变化，前后对比不足以单独归因。",
+      "choiceB": "销量增加20，所以优惠券因果效果就是20。",
+      "choiceC": "有销售数据就不需要对照。",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "result_json": "",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **0 个方案**。计算过程会原样放进最终记录。\n\n你暂时没有填写感受，这部分会如实留空。\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。"
+    }
+  },
+  {
+    "node": "BCandidateGate",
+    "type": "Condition",
+    "selected_port": "if01",
+    "output": {}
+  },
+  {
+    "node": "BConfirm",
+    "type": "InformationGathering",
+    "question": "### 先核对一下，我有没有理解对\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n如果对，选择“就按这个试”。想改的话，请先选择“我想改一下”，再告诉我新方案。\n\n*想修改请先选择“我想改一下”，再说明你想换成哪种做法，也可以补充理由。*\n\n这个方案和你的意思一致吗？",
+    "buttons": [
+      {
+        "CondID": "class01",
+        "OptionID": "confirm",
+        "OptionContent": "就按这个试"
+      },
+      {
+        "CondID": "class02",
+        "OptionID": "edit",
+        "OptionContent": "我想改一下"
+      },
+      {
+        "CondID": "class03",
+        "OptionID": "hint",
+        "OptionContent": "给我一点提示"
+      },
+      {
+        "CondID": "class04",
+        "OptionID": "finish",
+        "OptionContent": "结束并查看记录"
+      }
+    ],
+    "selected_port": "class01",
+    "user_action": {
+      "OptionID": "confirm",
+      "CondID": "class01",
+      "raw": "就按这个试"
+    },
+    "output": {
+      "USER_RESPONSE": "就按这个试",
+      "optionId": "confirm",
+      "optionContent": "就按这个试",
+      "OptionID": "confirm",
+      "OptionContent": "就按这个试",
+      "unused_ack": "received"
+    }
+  },
+  {
+    "node": "BCompute",
+    "type": "Code",
+    "input": {
+      "op": "confirm",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"awaiting_confirmation\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}}],\"pending_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}",
+      "user_text": "确认"
+    },
+    "output": {
+      "action": "evaluated",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "prompt": "",
+      "preview": "",
+      "feedback": "### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+      "result_json": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}",
+      "report": "",
+      "error": "",
+      "case_id": "finance_promotion",
+      "task_id": "finance",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"B\":\"销量增加20，所以优惠券因果效果就是20。\",\"C\":\"有销售数据就不需要对照。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "selection_json": "",
+      "display_text": "**现在：看看结果，再决定下一步**\n\n*一轮体验会试一个方案，再看看条件变化后会怎样，最后留下探索记录。已试算1次。你随时可以说“结束并给我报告”，直接查看已完成的内容；没做的部分不会补写。*\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+      "mode": "choice",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "还可能有周末、广告等变化，前后对比不足以单独归因。",
+      "choiceB": "销量增加20，所以优惠券因果效果就是20。",
+      "choiceC": "有销售数据就不需要对照。",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **1 个方案**。计算过程会原样放进最终记录。\n\n你暂时没有填写感受，这部分会如实留空。\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。",
+      "ok": true
+    }
+  },
+  {
+    "node": "BComputeGate",
+    "type": "Condition",
+    "selected_port": "if01",
+    "output": {}
+  },
+  {
+    "node": "BSuccess",
+    "type": "Code",
+    "input": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "feedback": "### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+      "result_json": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}"
+    },
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "feedback": "### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+      "result_json": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}"
+    }
+  },
+  {
+    "node": "BSuccessMerge",
+    "type": "VariableMerge",
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "feedback": "### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+      "result_json": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}"
+    }
+  },
+  {
+    "node": "BReady",
+    "type": "Code",
+    "input": {
+      "op": "report",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}"
+    },
+    "output": {
+      "action": "report",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "prompt": "",
+      "preview": "",
+      "feedback": "",
+      "result_json": "",
+      "report": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 草稿。事实按已确认方案记录；整份记录尚未由本人确认\n\n## 这次实际做了什么\n\n已经试过初始方案；还没有确认条件变化后的新方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n你还没有填写感受，或选择了暂时跳过。不会根据做题结果替你补写兴趣判断。\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*",
+      "error": "",
+      "case_id": "finance_promotion",
+      "task_id": "finance",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"B\":\"销量增加20，所以优惠券因果效果就是20。\",\"C\":\"有销售数据就不需要对照。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "selection_json": "",
+      "display_text": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 草稿。事实按已确认方案记录；整份记录尚未由本人确认\n\n## 这次实际做了什么\n\n已经试过初始方案；还没有确认条件变化后的新方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n你还没有填写感受，或选择了暂时跳过。不会根据做题结果替你补写兴趣判断。\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*",
+      "mode": "choice",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "还可能有周末、广告等变化，前后对比不足以单独归因。",
+      "choiceB": "销量增加20，所以优惠券因果效果就是20。",
+      "choiceC": "有销售数据就不需要对照。",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **1 个方案**。计算过程会原样放进最终记录。\n\n你暂时没有填写感受，这部分会如实留空。\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。",
+      "ok": true
+    }
+  },
+  {
+    "node": "BFeedback",
+    "type": "Message",
+    "message": "## 这次尝试的结果\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+    "output": {}
+  },
+  {
+    "node": "AfterFirst",
+    "type": "InformationGathering",
+    "question": "## 还想继续看看吗？\n\n接下来会改变一个条件，看看原来的做法还是否合适。也可以就到这里，查看已经完成的记录。",
+    "buttons": [
+      {
+        "CondID": "class01",
+        "OptionID": "continue",
+        "OptionContent": "换个条件，再试一次"
+      },
+      {
+        "CondID": "class02",
+        "OptionID": "finish",
+        "OptionContent": "到这里，查看记录"
+      }
+    ],
+    "selected_port": "class01",
+    "user_action": {
+      "OptionID": "continue",
+      "CondID": "class01",
+      "raw": "换个条件，再试一次"
+    },
+    "output": {
+      "USER_RESPONSE": "换个条件，再试一次",
+      "optionId": "continue",
+      "optionContent": "换个条件，再试一次",
+      "OptionID": "continue",
+      "OptionContent": "换个条件，再试一次",
+      "unused_ack": "received"
+    }
+  },
+  {
+    "node": "Advance",
+    "type": "Code",
+    "input": {
+      "op": "advance",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":0,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}"
+    },
+    "output": {
+      "action": "awaiting_plan",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"awaiting_plan\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "prompt": "## 优惠券带来了增长吗\n\n*这是为理解工作方法编写的教学情境，数据为合成，不用来判断你的能力或专业适合程度。*\n\n合成商店本周发券且销量120，上周未发券销量100。\n\n### 接下来，情况有了变化\n\n补充：可在同一周随机选一半同类用户发券，另一半不发券，并预先设定指标。\n\n- **方案 A**：只挑领券且购买的人，与所有未领券者比较。\n\n- **方案 B**：比较随机组的同口径平均结果，并检查分组与流失。\n\n- **方案 C**：尝试许多指标，只报告最好看的一个。\n\n**你会怎么选？**\n\n请点选一个方案。想补充自己的考虑，可以在核对方案时选择“我想改一下”，再告诉我。还拿不准的话，可以先要一点提示。\n\n*可以求提示，也可以随时结束并查看已有记录。*",
+      "preview": "",
+      "feedback": "### 回头看看刚才的选择\n\n你刚才选择的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n**这次的条件和选项都变了，请重新看过后再选。**同一个字母，可能已经是另一个方案。",
+      "result_json": "",
+      "report": "",
+      "error": "",
+      "case_id": "finance_promotion",
+      "task_id": "finance",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"只挑领券且购买的人，与所有未领券者比较。\",\"B\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"C\":\"尝试许多指标，只报告最好看的一个。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "selection_json": "",
+      "display_text": "**现在：条件变了，再试一次**\n\n*一轮体验会试一个方案，再看看条件变化后会怎样，最后留下探索记录。已试算1次。你随时可以说“结束并给我报告”，直接查看已完成的内容；没做的部分不会补写。*\n\n## 优惠券带来了增长吗\n\n*这是为理解工作方法编写的教学情境，数据为合成，不用来判断你的能力或专业适合程度。*\n\n合成商店本周发券且销量120，上周未发券销量100。\n\n### 接下来，情况有了变化\n\n补充：可在同一周随机选一半同类用户发券，另一半不发券，并预先设定指标。\n\n- **方案 A**：只挑领券且购买的人，与所有未领券者比较。\n\n- **方案 B**：比较随机组的同口径平均结果，并检查分组与流失。\n\n- **方案 C**：尝试许多指标，只报告最好看的一个。\n\n**你会怎么选？**\n\n请点选一个方案。想补充自己的考虑，可以在核对方案时选择“我想改一下”，再告诉我。还拿不准的话，可以先要一点提示。\n\n*可以求提示，也可以随时结束并查看已有记录。*\n\n### 回头看看刚才的选择\n\n你刚才选择的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n**这次的条件和选项都变了，请重新看过后再选。**同一个字母，可能已经是另一个方案。",
+      "mode": "choice",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "只挑领券且购买的人，与所有未领券者比较。",
+      "choiceB": "比较随机组的同口径平均结果，并检查分组与流失。",
+      "choiceC": "尝试许多指标，只报告最好看的一个。",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **1 个方案**。计算过程会原样放进最终记录。\n\n你暂时没有填写感受，这部分会如实留空。\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。",
+      "ok": true
+    }
+  },
+  {
+    "node": "AdvanceGate",
+    "type": "Condition",
+    "selected_port": "if01",
+    "output": {}
+  },
+  {
+    "node": "ChangeFeedback",
+    "type": "Message",
+    "message": "## 条件变了\n\n### 回头看看刚才的选择\n\n你刚才选择的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n**这次的条件和选项都变了，请重新看过后再选。**同一个字母，可能已经是另一个方案。",
+    "output": {}
+  },
+  {
+    "node": "VMode",
+    "type": "Condition",
+    "selected_port": "if01",
+    "output": {}
+  },
+  {
+    "node": "VChoice",
+    "type": "InformationGathering",
+    "question": "## 换个条件，再试一次\n\n## 优惠券带来了增长吗\n\n*这是为理解工作方法编写的教学情境，数据为合成，不用来判断你的能力或专业适合程度。*\n\n合成商店本周发券且销量120，上周未发券销量100。\n\n### 接下来，情况有了变化\n\n补充：可在同一周随机选一半同类用户发券，另一半不发券，并预先设定指标。\n\n- **方案 A**：只挑领券且购买的人，与所有未领券者比较。\n\n- **方案 B**：比较随机组的同口径平均结果，并检查分组与流失。\n\n- **方案 C**：尝试许多指标，只报告最好看的一个。\n\n**你会怎么选？**\n\n请点选一个方案。想补充自己的考虑，可以在核对方案时选择“我想改一下”，再告诉我。还拿不准的话，可以先要一点提示。\n\n*可以求提示，也可以随时结束并查看已有记录。*\n\n请选择你想尝试的做法；也可以看提示或结束。",
+    "buttons": [
+      {
+        "CondID": "class01",
+        "OptionID": "A",
+        "OptionContent": "只挑领券且购买的人，与所有未领券者比较。"
+      },
+      {
+        "CondID": "class02",
+        "OptionID": "B",
+        "OptionContent": "比较随机组的同口径平均结果，并检查分组与流失。"
+      },
+      {
+        "CondID": "class03",
+        "OptionID": "C",
+        "OptionContent": "尝试许多指标，只报告最好看的一个。"
+      },
+      {
+        "CondID": "class04",
+        "OptionID": "hint",
+        "OptionContent": "给我一点提示"
+      },
+      {
+        "CondID": "class05",
+        "OptionID": "finish",
+        "OptionContent": "结束并查看记录"
+      }
+    ],
+    "selected_port": "class02",
+    "user_action": {
+      "OptionID": "B",
+      "CondID": "class02",
+      "raw": "比较随机组的同口径平均结果，并检查分组与流失。"
+    },
+    "output": {
+      "USER_RESPONSE": "比较随机组的同口径平均结果，并检查分组与流失。",
+      "optionId": "B",
+      "optionContent": "比较随机组的同口径平均结果，并检查分组与流失。",
+      "OptionID": "B",
+      "OptionContent": "比较随机组的同口径平均结果，并检查分组与流失。",
+      "unused_ack": "received"
+    }
+  },
+  {
+    "node": "VPickB",
+    "type": "Code",
+    "input": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"awaiting_plan\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "choice": "B",
+      "user_text": "比较随机组的同口径平均结果，并检查分组与流失。"
+    },
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"awaiting_plan\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "choice": "B",
+      "user_text": "比较随机组的同口径平均结果，并检查分组与流失。"
+    }
+  },
+  {
+    "node": "VChoiceMerge",
+    "type": "VariableMerge",
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"awaiting_plan\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "choice": "B",
+      "user_text": "比较随机组的同口径平均结果，并检查分组与流失。"
+    }
+  },
+  {
+    "node": "VButtonPropose",
+    "type": "Code",
+    "input": {
+      "op": "submit_button",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"awaiting_plan\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "choice": "B",
+      "user_text": "比较随机组的同口径平均结果，并检查分组与流失。"
+    },
+    "output": {
+      "action": "awaiting_confirmation",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"awaiting_confirmation\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}}],\"pending_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "prompt": "",
+      "preview": "### 先核对一下，我有没有理解对\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n如果对，选择“就按这个试”。想改的话，请先选择“我想改一下”，再告诉我新方案。",
+      "feedback": "*想修改请先选择“我想改一下”，再说明你想换成哪种做法，也可以补充理由。*",
+      "result_json": "",
+      "report": "",
+      "error": "",
+      "case_id": "finance_promotion",
+      "task_id": "finance",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"只挑领券且购买的人，与所有未领券者比较。\",\"B\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"C\":\"尝试许多指标，只报告最好看的一个。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "selection_json": "",
+      "display_text": "**现在：核对你刚才的方案**\n\n*一轮体验会试一个方案，再看看条件变化后会怎样，最后留下探索记录。已试算1次。你随时可以说“结束并给我报告”，直接查看已完成的内容；没做的部分不会补写。*\n\n### 先核对一下，我有没有理解对\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n如果对，选择“就按这个试”。想改的话，请先选择“我想改一下”，再告诉我新方案。\n\n*想修改请先选择“我想改一下”，再说明你想换成哪种做法，也可以补充理由。*",
+      "mode": "choice",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "只挑领券且购买的人，与所有未领券者比较。",
+      "choiceB": "比较随机组的同口径平均结果，并检查分组与流失。",
+      "choiceC": "尝试许多指标，只报告最好看的一个。",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **1 个方案**。计算过程会原样放进最终记录。\n\n你暂时没有填写感受，这部分会如实留空。\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。",
+      "ok": true
+    }
+  },
+  {
+    "node": "VCandidate",
+    "type": "VariableMerge",
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"awaiting_confirmation\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}}],\"pending_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "selection_json": "",
+      "action": "awaiting_confirmation",
+      "ok": true,
+      "prompt": "",
+      "preview": "### 先核对一下，我有没有理解对\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n如果对，选择“就按这个试”。想改的话，请先选择“我想改一下”，再告诉我新方案。",
+      "feedback": "*想修改请先选择“我想改一下”，再说明你想换成哪种做法，也可以补充理由。*",
+      "display_text": "**现在：核对你刚才的方案**\n\n*一轮体验会试一个方案，再看看条件变化后会怎样，最后留下探索记录。已试算1次。你随时可以说“结束并给我报告”，直接查看已完成的内容；没做的部分不会补写。*\n\n### 先核对一下，我有没有理解对\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n如果对，选择“就按这个试”。想改的话，请先选择“我想改一下”，再告诉我新方案。\n\n*想修改请先选择“我想改一下”，再说明你想换成哪种做法，也可以补充理由。*",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"只挑领券且购买的人，与所有未领券者比较。\",\"B\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"C\":\"尝试许多指标，只报告最好看的一个。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "mode": "choice",
+      "choiceA": "只挑领券且购买的人，与所有未领券者比较。",
+      "choiceB": "比较随机组的同口径平均结果，并检查分组与流失。",
+      "choiceC": "尝试许多指标，只报告最好看的一个。",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "result_json": "",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **1 个方案**。计算过程会原样放进最终记录。\n\n你暂时没有填写感受，这部分会如实留空。\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。"
+    }
+  },
+  {
+    "node": "VCandidateGate",
+    "type": "Condition",
+    "selected_port": "if01",
+    "output": {}
+  },
+  {
+    "node": "VConfirm",
+    "type": "InformationGathering",
+    "question": "### 先核对一下，我有没有理解对\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n如果对，选择“就按这个试”。想改的话，请先选择“我想改一下”，再告诉我新方案。\n\n*想修改请先选择“我想改一下”，再说明你想换成哪种做法，也可以补充理由。*\n\n这个方案和你的意思一致吗？",
+    "buttons": [
+      {
+        "CondID": "class01",
+        "OptionID": "confirm",
+        "OptionContent": "就按这个试"
+      },
+      {
+        "CondID": "class02",
+        "OptionID": "edit",
+        "OptionContent": "我想改一下"
+      },
+      {
+        "CondID": "class03",
+        "OptionID": "hint",
+        "OptionContent": "给我一点提示"
+      },
+      {
+        "CondID": "class04",
+        "OptionID": "finish",
+        "OptionContent": "结束并查看记录"
+      }
+    ],
+    "selected_port": "class01",
+    "user_action": {
+      "OptionID": "confirm",
+      "CondID": "class01",
+      "raw": "就按这个试"
+    },
+    "output": {
+      "USER_RESPONSE": "就按这个试",
+      "optionId": "confirm",
+      "optionContent": "就按这个试",
+      "OptionID": "confirm",
+      "OptionContent": "就按这个试",
+      "unused_ack": "received"
+    }
+  },
+  {
+    "node": "VCompute",
+    "type": "Code",
+    "input": {
+      "op": "confirm",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"awaiting_confirmation\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}}],\"pending_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"A\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "user_text": "确认"
+    },
+    "output": {
+      "action": "evaluated",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "prompt": "",
+      "preview": "",
+      "feedback": "### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+      "result_json": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}",
+      "report": "",
+      "error": "",
+      "case_id": "finance_promotion",
+      "task_id": "finance",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"只挑领券且购买的人，与所有未领券者比较。\",\"B\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"C\":\"尝试许多指标，只报告最好看的一个。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "selection_json": "",
+      "display_text": "**现在：看看结果，再决定下一步**\n\n*一轮体验会试一个方案，再看看条件变化后会怎样，最后留下探索记录。已试算2次。你随时可以说“结束并给我报告”，直接查看已完成的内容；没做的部分不会补写。*\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+      "mode": "choice",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "只挑领券且购买的人，与所有未领券者比较。",
+      "choiceB": "比较随机组的同口径平均结果，并检查分组与流失。",
+      "choiceC": "尝试许多指标，只报告最好看的一个。",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **2 个方案**。计算过程会原样放进最终记录。\n\n你暂时没有填写感受，这部分会如实留空。\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。",
+      "ok": true
+    }
+  },
+  {
+    "node": "VComputeGate",
+    "type": "Condition",
+    "selected_port": "if01",
+    "output": {}
+  },
+  {
+    "node": "VSuccess",
+    "type": "Code",
+    "input": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "feedback": "### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+      "result_json": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}"
+    },
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "feedback": "### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+      "result_json": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}"
+    }
+  },
+  {
+    "node": "VSuccessMerge",
+    "type": "VariableMerge",
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "feedback": "### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+      "result_json": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}"
+    }
+  },
+  {
+    "node": "VReady",
+    "type": "Code",
+    "input": {
+      "op": "report",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}"
+    },
+    "output": {
+      "action": "report",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "prompt": "",
+      "preview": "",
+      "feedback": "",
+      "result_json": "",
+      "report": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 草稿。事实按已确认方案记录；整份记录尚未由本人确认\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n你还没有填写感受，或选择了暂时跳过。不会根据做题结果替你补写兴趣判断。\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*",
+      "error": "",
+      "case_id": "finance_promotion",
+      "task_id": "finance",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"只挑领券且购买的人，与所有未领券者比较。\",\"B\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"C\":\"尝试许多指标，只报告最好看的一个。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "selection_json": "",
+      "display_text": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 草稿。事实按已确认方案记录；整份记录尚未由本人确认\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n你还没有填写感受，或选择了暂时跳过。不会根据做题结果替你补写兴趣判断。\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*",
+      "mode": "choice",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "只挑领券且购买的人，与所有未领券者比较。",
+      "choiceB": "比较随机组的同口径平均结果，并检查分组与流失。",
+      "choiceC": "尝试许多指标，只报告最好看的一个。",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **2 个方案**。计算过程会原样放进最终记录。\n\n你暂时没有填写感受，这部分会如实留空。\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。",
+      "ok": true
+    }
+  },
+  {
+    "node": "VFeedback",
+    "type": "Message",
+    "message": "## 这次尝试的结果\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*",
+    "output": {}
+  },
+  {
+    "node": "AfterSecond",
+    "type": "InformationGathering",
+    "question": "## 两次尝试已经完成\n\n你可以补一句自己的感受，也可以直接查看记录。没有感受或还不确定，都没关系。",
+    "buttons": [
+      {
+        "CondID": "class01",
+        "OptionID": "reflect",
+        "OptionContent": "说说这次的感受"
+      },
+      {
+        "CondID": "class02",
+        "OptionID": "finish",
+        "OptionContent": "直接查看记录"
+      }
+    ],
+    "selected_port": "class01",
+    "user_action": {
+      "OptionID": "reflect",
+      "CondID": "class01",
+      "raw": "说说这次的感受"
+    },
+    "output": {
+      "USER_RESPONSE": "说说这次的感受",
+      "optionId": "reflect",
+      "optionContent": "说说这次的感受",
+      "OptionID": "reflect",
+      "OptionContent": "说说这次的感受",
+      "unused_ack": "received"
+    }
+  },
+  {
+    "node": "Reflection",
+    "type": "InformationGathering",
+    "question": "## 留下一句自己的想法\n\n做决策时，你会怎样表达“暂时没有足够证据”？\n\n如果有想进一步了解的专业，可以另起一行写“想了解：专业名称”（可不填）。\n\n想跳过时，直接说“结束并看记录”。",
+    "output": {
+      "USER_RESPONSE": "我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n想了解：数字经济、金融科技、统计学",
+      "unused_ack": "received"
+    }
+  },
+  {
+    "node": "Draft",
+    "type": "Code",
+    "input": {
+      "op": "reflect_auto_majors",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"evaluated\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"}],\"pending_plan\":null,\"reflection_raw\":\"\",\"requested_majors\":[],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "user_text": "我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n想了解：数字经济、金融科技、统计学"
+    },
+    "output": {
+      "action": "awaiting_record_confirmation",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"awaiting_record_confirmation\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"},{\"event_id\":7,\"kind\":\"reflection\",\"phase\":1,\"raw_text\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\"}],\"pending_plan\":null,\"reflection_raw\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\",\"requested_majors\":[\"数字经济\",\"金融科技\",\"统计学\"],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "prompt": "",
+      "preview": "### 请看看这份记录\n\n准确的话，可以选择“确认记录”。感受想修改的话，直接告诉我完整的新说法；也可以先保留这份未确认的记录。",
+      "feedback": "",
+      "result_json": "",
+      "report": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 草稿。事实按已确认方案记录；整份记录尚未由本人确认\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n*保留本人原话；这段感受尚未随整份记录确认。*\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 你想继续了解的专业\n\n**按用户清单在本大类内，可继续了解：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格未核验：** 统计学\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*",
+      "error": "",
+      "case_id": "finance_promotion",
+      "task_id": "finance",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"只挑领券且购买的人，与所有未领券者比较。\",\"B\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"C\":\"尝试许多指标，只报告最好看的一个。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "catalog_json": "",
+      "scope_json": "{\"within_group\":[\"数字经济\",\"金融科技\"],\"cross_group\":[\"统计学\"],\"unverified\":[],\"group_confirmed\":true,\"catalog_source\":\"U-GROUPS-20261017\",\"catalog_verification\":\"user_provided_not_officially_verified\",\"notice\":\"只按用户提供大类清单区分范围；不推导跨类转入、辅修资格，也不把活动关联专业直接变成推荐。\"}",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "selection_json": "",
+      "display_text": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 草稿。事实按已确认方案记录；整份记录尚未由本人确认\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n*保留本人原话；这段感受尚未随整份记录确认。*\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 你想继续了解的专业\n\n**按用户清单在本大类内，可继续了解：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格未核验：** 统计学\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*\n\n### 请看看这份记录\n\n准确的话，可以选择“确认记录”。感受想修改的话，直接告诉我完整的新说法；也可以先保留这份未确认的记录。",
+      "mode": "choice",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "只挑领券且购买的人，与所有未领券者比较。",
+      "choiceB": "比较随机组的同口径平均结果，并检查分组与流失。",
+      "choiceC": "尝试许多指标，只报告最好看的一个。",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **2 个方案**。计算过程会原样放进最终记录。\n\n你对体验的感受：\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n**按你提供的大类清单属于类内：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格尚未核验：** 统计学\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。",
+      "ok": true
+    }
+  },
+  {
+    "node": "DraftGate",
+    "type": "Condition",
+    "selected_port": "if01",
+    "output": {}
+  },
+  {
+    "node": "RecordConfirm",
+    "type": "InformationGathering",
+    "question": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **2 个方案**。计算过程会原样放进最终记录。\n\n你对体验的感受：\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n**按你提供的大类清单属于类内：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格尚未核验：** 统计学\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。\n\n计算结果会按实际尝试保留。这里主要请你核对自己的感受。",
+    "buttons": [
+      {
+        "CondID": "class01",
+        "OptionID": "confirm",
+        "OptionContent": "记录准确，查看报告"
+      },
+      {
+        "CondID": "class02",
+        "OptionID": "edit",
+        "OptionContent": "改一下我的感受"
+      },
+      {
+        "CondID": "class03",
+        "OptionID": "finish",
+        "OptionContent": "先不确认，直接查看记录"
+      }
+    ],
+    "selected_port": "class01",
+    "user_action": {
+      "OptionID": "confirm",
+      "CondID": "class01",
+      "raw": "记录准确，查看报告"
+    },
+    "output": {
+      "USER_RESPONSE": "记录准确，查看报告",
+      "optionId": "confirm",
+      "optionContent": "记录准确，查看报告",
+      "OptionID": "confirm",
+      "OptionContent": "记录准确，查看报告",
+      "unused_ack": "received"
+    }
+  },
+  {
+    "node": "Finalize",
+    "type": "Code",
+    "input": {
+      "op": "confirm_record",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"awaiting_record_confirmation\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"},{\"event_id\":7,\"kind\":\"reflection\",\"phase\":1,\"raw_text\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\"}],\"pending_plan\":null,\"reflection_raw\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\",\"requested_majors\":[\"数字经济\",\"金融科技\",\"统计学\"],\"record_confirmed\":false,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "user_text": "确认记录"
+    },
+    "output": {
+      "action": "completed",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"completed\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"},{\"event_id\":7,\"kind\":\"reflection\",\"phase\":1,\"raw_text\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\"},{\"event_id\":8,\"kind\":\"record_confirmed\",\"phase\":1,\"raw_text\":\"确认记录\"}],\"pending_plan\":null,\"reflection_raw\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\",\"requested_majors\":[\"数字经济\",\"金融科技\",\"统计学\"],\"record_confirmed\":true,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "prompt": "",
+      "preview": "",
+      "feedback": "",
+      "result_json": "",
+      "report": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 本人已确认整份记录\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n*这段感受已随记录由本人确认。*\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 你想继续了解的专业\n\n**按用户清单在本大类内，可继续了解：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格未核验：** 统计学\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*",
+      "error": "",
+      "case_id": "finance_promotion",
+      "task_id": "finance",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"只挑领券且购买的人，与所有未领券者比较。\",\"B\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"C\":\"尝试许多指标，只报告最好看的一个。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "selection_json": "",
+      "display_text": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 本人已确认整份记录\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n*这段感受已随记录由本人确认。*\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 你想继续了解的专业\n\n**按用户清单在本大类内，可继续了解：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格未核验：** 统计学\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*",
+      "mode": "choice",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "只挑领券且购买的人，与所有未领券者比较。",
+      "choiceB": "比较随机组的同口径平均结果，并检查分组与流失。",
+      "choiceC": "尝试许多指标，只报告最好看的一个。",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **2 个方案**。计算过程会原样放进最终记录。\n\n你对体验的感受：\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n**按你提供的大类清单属于类内：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格尚未核验：** 统计学\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。",
+      "ok": true
+    }
+  },
+  {
+    "node": "ConfirmedExit",
+    "type": "Code",
+    "input": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"completed\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"},{\"event_id\":7,\"kind\":\"reflection\",\"phase\":1,\"raw_text\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\"},{\"event_id\":8,\"kind\":\"record_confirmed\",\"phase\":1,\"raw_text\":\"确认记录\"}],\"pending_plan\":null,\"reflection_raw\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\",\"requested_majors\":[\"数字经济\",\"金融科技\",\"统计学\"],\"record_confirmed\":true,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "finish_notice": ""
+    },
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"completed\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"},{\"event_id\":7,\"kind\":\"reflection\",\"phase\":1,\"raw_text\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\"},{\"event_id\":8,\"kind\":\"record_confirmed\",\"phase\":1,\"raw_text\":\"确认记录\"}],\"pending_plan\":null,\"reflection_raw\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\",\"requested_majors\":[\"数字经济\",\"金融科技\",\"统计学\"],\"record_confirmed\":true,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "finish_notice": ""
+    }
+  },
+  {
+    "node": "StateExitMerge",
+    "type": "VariableMerge",
+    "output": {
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"completed\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"},{\"event_id\":7,\"kind\":\"reflection\",\"phase\":1,\"raw_text\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\"},{\"event_id\":8,\"kind\":\"record_confirmed\",\"phase\":1,\"raw_text\":\"确认记录\"}],\"pending_plan\":null,\"reflection_raw\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\",\"requested_majors\":[\"数字经济\",\"金融科技\",\"统计学\"],\"record_confirmed\":true,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "finish_notice": ""
+    }
+  },
+  {
+    "node": "StateFinish",
+    "type": "Code",
+    "input": {
+      "op": "finish",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"completed\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"},{\"event_id\":7,\"kind\":\"reflection\",\"phase\":1,\"raw_text\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\"},{\"event_id\":8,\"kind\":\"record_confirmed\",\"phase\":1,\"raw_text\":\"确认记录\"}],\"pending_plan\":null,\"reflection_raw\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\",\"requested_majors\":[\"数字经济\",\"金融科技\",\"统计学\"],\"record_confirmed\":true,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "finish_notice": ""
+    },
+    "output": {
+      "action": "stopped",
+      "state_json": "{\"engine_version\":\"2.1.0\",\"case_version\":\"2026-10-17.1\",\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"status\":\"completed\",\"group_id\":\"digital_finance\",\"group_confirmed\":true,\"cohort\":\"未提供\",\"events\":[{\"event_id\":1,\"kind\":\"started\",\"phase\":0,\"group_id\":\"digital_finance\",\"group_confirmed\":true},{\"event_id\":2,\"kind\":\"proposed\",\"phase\":0,\"raw_text\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"}},{\"event_id\":3,\"kind\":\"evaluated\",\"phase\":0,\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":0,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"A\",\"reason\":\"\"},\"feedback\":\"区分相关变化与因果作用，没有超出证据。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":4,\"kind\":\"conditions_changed\",\"phase\":1,\"previous_choice\":\"A\",\"previous_option\":\"还可能有周末、广告等变化，前后对比不足以单独归因。\"},{\"event_id\":5,\"kind\":\"proposed\",\"phase\":1,\"raw_text\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"}},{\"event_id\":6,\"kind\":\"evaluated\",\"phase\":1,\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true},\"confirmation_raw\":\"确认\",\"proposal_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\"},{\"event_id\":7,\"kind\":\"reflection\",\"phase\":1,\"raw_text\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\"},{\"event_id\":8,\"kind\":\"record_confirmed\",\"phase\":1,\"raw_text\":\"确认记录\"}],\"pending_plan\":null,\"reflection_raw\":\"我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\\n想了解：数字经济、金融科技、统计学\",\"requested_majors\":[\"数字经济\",\"金融科技\",\"统计学\"],\"record_confirmed\":true,\"group_raw\":\"数智经济金融\",\"group_source\":\"user_self_report_not_officially_verified\",\"pending_raw\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"last_plan\":{\"choice\":\"B\",\"reason\":\"\"},\"last_result\":{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"case_version\":\"2026-10-17.1\",\"phase\":1,\"kind\":\"synthetic_teaching_result\",\"plan\":{\"choice\":\"B\",\"reason\":\"\"},\"feedback\":\"随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\",\"supported_by_stated_criteria\":true,\"checks\":{},\"valid\":true}}",
+      "prompt": "",
+      "preview": "",
+      "feedback": "已经为你整理好目前实际完成的内容。还没做的部分不会补写，也不需要先回答反思问题。",
+      "result_json": "",
+      "report": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 本人已确认整份记录\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n*这段感受已随记录由本人确认。*\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 你想继续了解的专业\n\n**按用户清单在本大类内，可继续了解：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格未核验：** 统计学\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*",
+      "error": "",
+      "case_id": "finance_promotion",
+      "task_id": "finance",
+      "normalizer_context": "{\"case_id\":\"finance_promotion\",\"task_id\":\"finance\",\"phase\":1,\"mode\":\"choice\",\"plan_fields\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"options\":{\"A\":\"只挑领券且购买的人，与所有未领券者比较。\",\"B\":\"比较随机组的同口径平均结果，并检查分组与流失。\",\"C\":\"尝试许多指标，只报告最好看的一个。\"},\"extract_schema\":{\"action\":\"submit|hint|clarify|stop\",\"plan\":{\"choice\":\"A或B或C，仅能有一个\",\"reason\":\"本人理由，可为空，不得补写\"},\"quote\":\"学生本轮原文连续片段\",\"question\":\"需要时只问一个澄清问题\"},\"rule\":\"不代替用户选方案，不算结果，不判断专业适配；多备选须clarify，JSON只是候选，必须本人确认后计算。\"}",
+      "knowledge_query": "优惠券带来了增长吗 因果识别 基准率 成本收益 数字经济 统计学",
+      "catalog_json": "",
+      "scope_json": "",
+      "reflection_prompt": "做决策时，你会怎样表达“暂时没有足够证据”？",
+      "selection_json": "",
+      "display_text": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 本人已确认整份记录\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n*这段感受已随记录由本人确认。*\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 你想继续了解的专业\n\n**按用户清单在本大类内，可继续了解：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格未核验：** 统计学\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*\n\n已经为你整理好目前实际完成的内容。还没做的部分不会补写，也不需要先回答反思问题。",
+      "mode": "choice",
+      "case1": "",
+      "case2": "",
+      "case3": "",
+      "choiceA": "只挑领券且购买的人，与所有未领券者比较。",
+      "choiceB": "比较随机组的同口径平均结果，并检查分组与流失。",
+      "choiceC": "尝试许多指标，只报告最好看的一个。",
+      "record_summary": "## 最后，核对一下想留下的记录\n\n**体验内容：** 优惠券带来了增长吗\n\n你已经确认并试过 **2 个方案**。计算过程会原样放进最终记录。\n\n你对体验的感受：\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n**按你提供的大类清单属于类内：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格尚未核验：** 统计学\n\n感受准确的话，选择‘记录准确’；也可以改一下，或直接查看尚未确认的记录。",
+      "ok": true
+    }
+  },
+  {
+    "node": "StateTerminal",
+    "type": "Code",
+    "input": {
+      "text": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 本人已确认整份记录\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n*这段感受已随记录由本人确认。*\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 你想继续了解的专业\n\n**按用户清单在本大类内，可继续了解：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格未核验：** 统计学\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*\n\n已经为你整理好目前实际完成的内容。还没做的部分不会补写，也不需要先回答反思问题。",
+      "fallback": "本次未完成有效计算或确认，可重新发起。"
+    },
+    "output": {
+      "final_text": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 本人已确认整份记录\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n*这段感受已随记录由本人确认。*\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 你想继续了解的专业\n\n**按用户清单在本大类内，可继续了解：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格未核验：** 统计学\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*\n\n已经为你整理好目前实际完成的内容。还没做的部分不会补写，也不需要先回答反思问题。"
+    }
+  },
+  {
+    "node": "FinalMerge",
+    "type": "VariableMerge",
+    "output": {
+      "final": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 本人已确认整份记录\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n*这段感受已随记录由本人确认。*\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 你想继续了解的专业\n\n**按用户清单在本大类内，可继续了解：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格未核验：** 统计学\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*\n\n已经为你整理好目前实际完成的内容。还没做的部分不会补写，也不需要先回答反思问题。"
+    }
+  },
+  {
+    "node": "End",
+    "type": "End",
+    "output": {
+      "final_text": "# 本次专业活动探索记录\n\n**体验内容：** 优惠券带来了增长吗\n\n**所属大类：** 数智经济金融（本人已确认）\n\n**入学年级：** 未提供；本次不据此判断年级资格\n\n**记录状态：** 本人已确认整份记录\n\n## 这次实际做了什么\n\n已经试过初始方案和条件变化后的方案。以下只列出实际完成的内容。\n\n## 第一次：本人确认的方案\n\n**你的选择：方案 A**\n\n还可能有周末、广告等变化，前后对比不足以单独归因。\n\n你当时说的是：\n\n> 还可能有周末、广告等变化，前后对比不足以单独归因。\n\n### 看看这个选择会怎样\n\n区分相关变化与因果作用，没有超出证据。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 条件变化后：本人确认的新方案\n\n**你的选择：方案 B**\n\n比较随机组的同口径平均结果，并检查分组与流失。\n\n你当时说的是：\n\n> 比较随机组的同口径平均结果，并检查分组与流失。\n\n### 看看这个选择会怎样\n\n随机分组和预设口径有助于减少选择与报告偏差；仍需关注执行和外溢。\n\n*这只是对本题方案的反馈，不代表能力或专业适合程度。*\n\n## 你对这次体验的感受\n\n> 我更想追问增长是不是活动造成的，还不确定自己是否喜欢金融里的其他工作。\n> 想了解：数字经济、金融科技、统计学\n\n*这段感受已随记录由本人确认。*\n\n## 这次接触到了什么\n\n**涉及的方法：** 因果识别、基准率、成本收益\n\n**还没有体验：** 不是投资建议、金融产品推荐或风控部署方案；只体验给定假设下的计算与证据判断。\n\n*这些关联只帮助你继续了解专业，不是推荐或适合程度排名。*\n\n## 你想继续了解的专业\n\n**按用户清单在本大类内，可继续了解：** 数字经济、金融科技\n\n**跨大类兴趣，转入资格未核验：** 统计学\n\n## 接下来可以怎么了解\n\n挑出刚才你最想继续追问的一点，再看一份相关专业的入门材料、真实课程或实验介绍，比较其中哪些事情你还愿意亲手尝试。\n\n*资料边界：大类目录来自用户提供的清单，尚未按个人年级核验分流规则。案例使用合成教学数据；没有测量能力、人格或专业适合程度，也没有据此给专业排名。*\n\n已经为你整理好目前实际完成的内容。还没做的部分不会补写，也不需要先回答反思问题。"
+    }
+  }
+]

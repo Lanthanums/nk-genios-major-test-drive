@@ -1,0 +1,120 @@
+DLVersion: v2
+Depends:
+  AppMap: {}
+  DataSourceMap: {}
+  DatabaseMap: {}
+  KnowledgeMap: {}
+  ModelMap: {}
+  PluginMap: {}
+  QADataSetMap: {}
+  TermDatasetMap: {}
+  ToolMap: {}
+  WorkflowMap: {}
+Desc: 探针D：验证平台YAML解析是否支持锚点/别名。
+DisplayName: WF_Probe_D_Anchor
+FlowType: Workflow
+ID: dbprobpd41717400000w1
+LogoPath: ''
+MetaType: Workflow
+Nodes:
+- Code: dbprobpd41717400000s1
+  Configs:
+    Start:
+      InputSchema:
+      - Name: task_id
+        Type: 0
+        Required: true
+        Desc: 探针入口参数
+      OutputSchema:
+      - Name: task_id
+        Type: 0
+        Required: true
+        Desc: 探针入口参数
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: dbprobpd41717400000s1
+  Layout:
+    X: 180
+    Y: 260
+  Name: Start
+  Type: Start
+  Depends: []
+- Code: dbprobpd41717400000c1
+  Configs:
+    Code:
+      Code: &wfprobe_code |
+        def handler(params):
+            return {"ok": True, "final_text": "anchor ok"}
+      InputVariables:
+      - Name: task_id
+        NodeCode: dbprobpd41717400000s1
+        Path: task_id
+        RefType: node_field
+      Language: 1
+      OutputSchema:
+      - Name: ok
+        Type: 2
+      - Name: final_text
+        Type: 0
+      Retries: 0
+      TimeoutSeconds: 120
+  Depends:
+  - NodeCode: dbprobpd41717400000s1
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: dbprobpd41717400000c1
+  Layout:
+    X: 560
+    Y: 160
+  Name: ProbeCodeA
+  Type: Code
+- Code: dbprobpd41717400000c2
+  Configs:
+    Code:
+      Code: *wfprobe_code
+      InputVariables:
+      - Name: task_id
+        NodeCode: dbprobpd41717400000s1
+        Path: task_id
+        RefType: node_field
+      Language: 1
+      OutputSchema:
+      - Name: ok
+        Type: 2
+      - Name: final_text
+        Type: 0
+      Retries: 0
+      TimeoutSeconds: 120
+  Depends:
+  - NodeCode: dbprobpd41717400000c1
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: dbprobpd41717400000c2
+  Layout:
+    X: 560
+    Y: 360
+  Name: ProbeCodeB
+  Type: Code
+- Code: dbprobpd41717400000e1
+  Configs:
+    End:
+      InputVariables:
+      - Name: final_text
+        NodeCode: dbprobpd41717400000c2
+        Path: final_text
+        RefType: node_field
+      OutputType: Variable
+  Depends:
+  - NodeCode: dbprobpd41717400000c2
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: dbprobpd41717400000e1
+  Layout:
+    X: 940
+    Y: 260
+  Name: End
+  Type: End
+UniqueName: dbprobpd41717400000w1
+UpdatedAt: 0
+VersionCode: '-'
+VersionName: '-'

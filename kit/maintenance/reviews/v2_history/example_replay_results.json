@@ -1,0 +1,24 @@
+{
+  "live_models": false,
+  "live_retrieval": false,
+  "examples": [
+    {
+      "case_id": "materials_optics",
+      "confirmed": true,
+      "actual_user_turns_in_workflow": 9,
+      "bridge_source_id": "LE-MATERIAL"
+    },
+    {
+      "case_id": "finance_promotion",
+      "confirmed": true,
+      "actual_user_turns_in_workflow": 9,
+      "bridge_source_id": "LE-DIGITAL"
+    },
+    {
+      "case_id": "sensor_luggage",
+      "confirmed": true,
+      "actual_user_turns_in_workflow": 10,
+      "bridge_source_id": "STEM-S09"
+    }
+  ]
+}

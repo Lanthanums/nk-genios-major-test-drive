@@ -1,0 +1,23 @@
+[
+  {
+    "case_id": "materials_optics",
+    "yaml_sha256": "1478eba7455fe04c20eb9ec419990de713ab25ff2a1ed5bae569f963e3efddb2",
+    "evaluated": 2,
+    "record_confirmed": true,
+    "group_asked": false
+  },
+  {
+    "case_id": "finance_promotion",
+    "yaml_sha256": "1478eba7455fe04c20eb9ec419990de713ab25ff2a1ed5bae569f963e3efddb2",
+    "evaluated": 2,
+    "record_confirmed": true,
+    "group_asked": false
+  },
+  {
+    "case_id": "sensor_luggage",
+    "yaml_sha256": "1478eba7455fe04c20eb9ec419990de713ab25ff2a1ed5bae569f963e3efddb2",
+    "evaluated": 2,
+    "record_confirmed": false,
+    "group_asked": false
+  }
+]

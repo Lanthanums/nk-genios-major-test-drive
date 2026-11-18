@@ -1,0 +1,10 @@
+{
+  "version": "2.1.0",
+  "all_four_yaml_byte_identical": true,
+  "sha256": {
+    "WF_Explore_One_v2.yaml": "f7d4e8a34e74e07b668e12c01944fb34967cff0afb1a98d6bc4f98077b521734",
+    "WF_Explore_One_v2_Offline.yaml": "1478eba7455fe04c20eb9ec419990de713ab25ff2a1ed5bae569f963e3efddb2",
+    "WF_KB_Practice_Draft_v2.yaml": "7031f1f514c13c171c76ec59cd814edafb892470d43ec66e46e83916aa41245d",
+    "WF_Major_Knowledge_v2.yaml": "c21c52cf1a5d938759e47ab4189aa444c2355b6f6c1b1e6ede1b299452373501"
+  }
+}

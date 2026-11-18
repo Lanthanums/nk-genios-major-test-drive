@@ -1,0 +1,280 @@
+{
+  "version": "1.1.0",
+  "files": [
+    {
+      "path": "cases/control.md",
+      "bytes": 3669,
+      "sha256": "9208300fe2f1ccda4ed771d085261b3ea95c62138efcf2a920818ace6a792359"
+    },
+    {
+      "path": "cases/control_example_report.md",
+      "bytes": 2523,
+      "sha256": "4e9271a4e888f34ed89c5dc1b03eec7a9bae9e88fac021cb3c291a04e637f31b"
+    },
+    {
+      "path": "cases/golden_results.json",
+      "bytes": 5489,
+      "sha256": "93715a94a94ef7af621dae5a626590eea22fae1a30cb428f39e478118ec69153"
+    },
+    {
+      "path": "cases/route.md",
+      "bytes": 2322,
+      "sha256": "699898c2c7271200aa830411c82d6819e95d3a8aa4ca772085b84d9317e71152"
+    },
+    {
+      "path": "cases/route_example_report.md",
+      "bytes": 2095,
+      "sha256": "91d473e70753d1425e36c6aff2a21c80549e0bcd2a8aece072cc9cbd977dea85"
+    },
+    {
+      "path": "cases/route_group_demo_checked_options.json",
+      "bytes": 981,
+      "sha256": "de33e5ad6c0ad402c03fb5e02343b66846b85ed81fb10b2a3ef01a45f79b2914"
+    },
+    {
+      "path": "cases/route_group_demo_report.md",
+      "bytes": 2192,
+      "sha256": "5d2b7bbac5feca5011f9fdca1e3a0fde3f5545dd8bddae63138740b1830f5157"
+    },
+    {
+      "path": "cases/route_group_demo_trace.json",
+      "bytes": 33931,
+      "sha256": "bb62efc537b9aed2c75edf1d8dba3bfb0aeae17c85bd57b27792cb8209325683"
+    },
+    {
+      "path": "cases/sensor.md",
+      "bytes": 2357,
+      "sha256": "2cfc8d2b1c2b973f43f3e83fe1fbd15d33722f3036a5b3e3b897ec0498d01f6b"
+    },
+    {
+      "path": "cases/sensor_example_report.md",
+      "bytes": 2368,
+      "sha256": "25d2aefc38d40affeca05a6de0c53bce676e511262090b8970924a6f0e1d3a93"
+    },
+    {
+      "path": "cases/state_example.json",
+      "bytes": 2082,
+      "sha256": "b44f63dba8372f4a7398562f74b3559d9c123ab09df7eb2aef5913b486647054"
+    },
+    {
+      "path": "code/engine.py",
+      "bytes": 25239,
+      "sha256": "465d606743229616fb537bb3898a49aba321102ba9c2bf88dd852c8d9877169d"
+    },
+    {
+      "path": "code/hiagent_node.py",
+      "bytes": 25272,
+      "sha256": "8120e02e2560b4bb72dad49bc81229a33a5a1f9095ab74a61d116a504b88533b"
+    },
+    {
+      "path": "config/major_groups.json",
+      "bytes": 2826,
+      "sha256": "d678fa8141ce340c9ffd977e615474d9450dbac4bf3147f6072b1674d668d8c0"
+    },
+    {
+      "path": "implementation_plan.md",
+      "bytes": 31921,
+      "sha256": "717259a50b7b766090d94025727a717ff84b693e590d42dd68d54517b45497e8"
+    },
+    {
+      "path": "knowledge_base/00_scope.md",
+      "bytes": 1697,
+      "sha256": "bb6d9e717ec909b3e42eb25bbc183ff755a0adc07f202f09fc10d7fbea8c97dc"
+    },
+    {
+      "path": "knowledge_base/01_route_activity.md",
+      "bytes": 1358,
+      "sha256": "90e87ddaab036735a364d232e9e1bb0775dca83c9a91138d2d2c21f12d205f22"
+    },
+    {
+      "path": "knowledge_base/02_sensor_activity.md",
+      "bytes": 1383,
+      "sha256": "dbd52b923504c6506bec938cfe9a97c70b7ceabd6c5520f0e828e091d05990b1"
+    },
+    {
+      "path": "knowledge_base/03_control_activity.md",
+      "bytes": 1346,
+      "sha256": "3062ae388bf246d051d042d8422984f9d76db4ddb5e13aca5cf2dbd891b6bbc1"
+    },
+    {
+      "path": "knowledge_base/04_nankai_resources.md",
+      "bytes": 1542,
+      "sha256": "2862615f9c722b0388384ddc463fc6dd1a1fd5ac42099ee3cf1c7bd16e8af8f4"
+    },
+    {
+      "path": "knowledge_base/05_faq.md",
+      "bytes": 2068,
+      "sha256": "9d0e61caf6bbda0fbde9daa5fec389b02f50b7f2d8578af604e7f26e6f673cf7"
+    },
+    {
+      "path": "knowledge_base/06_major_groups_index.md",
+      "bytes": 1402,
+      "sha256": "5a08ad996269b5a00aa8661f31201d7aad14bea4cfe2271f34fe6af5394524c7"
+    },
+    {
+      "path": "knowledge_base/07_01_future.md",
+      "bytes": 1005,
+      "sha256": "27eb37a6f516c984f4a9e4db51f1feee42ba0c9b868ac76f0c5f345a9edec4b3"
+    },
+    {
+      "path": "knowledge_base/07_02_information.md",
+      "bytes": 890,
+      "sha256": "54d6c4cb0630fcbe87a344c4d0653ae370b42b5df3b3c57ff298ef3c854f68c2"
+    },
+    {
+      "path": "knowledge_base/07_03_physics_opto.md",
+      "bytes": 962,
+      "sha256": "7b631a01b464cca7a749899b3991e350b78d6099a25c45aec9ca8f471cbcd8e9"
+    },
+    {
+      "path": "knowledge_base/07_04_matter.md",
+      "bytes": 819,
+      "sha256": "dcb4ea3ff1b36688a4187458b48867a9666c6fece68e42b6f45abe8c07868c74"
+    },
+    {
+      "path": "knowledge_base/07_05_digital_finance.md",
+      "bytes": 807,
+      "sha256": "65ad0fdd180edee4c25a01effa2657ff9934f776b5925bb109eaa191d7bd9032"
+    },
+    {
+      "path": "knowledge_base/07_06_boqin_info.md",
+      "bytes": 1051,
+      "sha256": "8d8ba51f9350ba5d72fea46fa3908270f5550fe6baed03ea8f21c81fde0f7e5f"
+    },
+    {
+      "path": "knowledge_base/07_07_math_data.md",
+      "bytes": 842,
+      "sha256": "b6ef271b7d144ac22eb61d99c55270ee38c078ed94eaac4529c43712c80fea15"
+    },
+    {
+      "path": "knowledge_base/07_08_boqin_science.md",
+      "bytes": 1034,
+      "sha256": "0406120fdc13337a3b1b96eeddf55323acc33a1e7177767836a9d1265febf83d"
+    },
+    {
+      "path": "platform_import/build_importable_workflow.py",
+      "bytes": 16522,
+      "sha256": "a6e06b248255f68e6ff70ab1af86f6adb63a43373df759128728652dfff427be"
+    },
+    {
+      "path": "platform_import/delivery_manifest.json",
+      "bytes": 1669,
+      "sha256": "72d43e6d93e7b696e6d5723ed740db9d48f0fa2a1ec428a745c45e99d84c963b"
+    },
+    {
+      "path": "platform_import/route_demo_final.md",
+      "bytes": 2373,
+      "sha256": "3cd93b07810b77b7d42c6783811971aa52bc85e4c7288812bde56aee76dbe55b"
+    },
+    {
+      "path": "platform_import/route_demo_trace.json",
+      "bytes": 59102,
+      "sha256": "03d28a6b4fd53f7d551e117f0e2f6f44fbed19a707f2000ed95695ac9e008557"
+    },
+    {
+      "path": "platform_import/verification_results.json",
+      "bytes": 553,
+      "sha256": "ef4f615d2b3ad953ed6da465bcae52c522ccb98bc1f5a514a06ca2cf6a637a6c"
+    },
+    {
+      "path": "platform_import/verify_importable_workflow.py",
+      "bytes": 19910,
+      "sha256": "f4c334ecd09c514a582682d0431bd1e244bb917bd3c8fb5311a9644636e52fe7"
+    },
+    {
+      "path": "platform_import/WF_Explore_One_v1.1_single_end.yaml",
+      "bytes": 349950,
+      "sha256": "2302cdc47728a7579454670f6dbd5779f050dbf936fd1858391a0bf954853c6d"
+    },
+    {
+      "path": "platform_import/workflow_runtime.py",
+      "bytes": 28942,
+      "sha256": "c02e97f86a8fd6cc79b71bdcf8cd9fa6a9f769a5f4f6fc49712a86fce6bdcd1d"
+    },
+    {
+      "path": "platform_import/workflow_test_results.txt",
+      "bytes": 2818,
+      "sha256": "bb07056aa3733ca00faa6c966db0b6aa2dc831e94447dbbc0896f0d5948ce8ee"
+    },
+    {
+      "path": "platform_import/导入说明与修正记录.md",
+      "bytes": 6227,
+      "sha256": "f1e3155082034810dffa1cf9e7aad0a488fd6c02602568fe62a65532bd92f388"
+    },
+    {
+      "path": "prompts/agent_system.md",
+      "bytes": 4594,
+      "sha256": "d8af0b87a4f6e8a6e69e2be58cab24e30c2b6fec6425d355429c624934d2da7d"
+    },
+    {
+      "path": "prompts/coach_question.md",
+      "bytes": 1147,
+      "sha256": "1743f359d73020b8ff7107ad93245572ec703f39c83d8c5a09735377b8fbd348"
+    },
+    {
+      "path": "prompts/normalize_input.md",
+      "bytes": 2931,
+      "sha256": "3b308e13199e3dc9b21623425df636524638641fac45d51e10370dd44d951372"
+    },
+    {
+      "path": "prompts/resource_answer.md",
+      "bytes": 2142,
+      "sha256": "78f02f899210665815aaa1ed30941cd636bc09e65fdfc8765363b2e9f39d72e3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4583,
+      "sha256": "9e4647a748fd94818206a757dc435b054ebbda7f6c7ca65dfc5915e10d7c963c"
+    },
+    {
+      "path": "references/source_register.md",
+      "bytes": 6396,
+      "sha256": "4e4b354b4818342ad905f65b0c59351a161a618773db260c0f51064358ccf519"
+    },
+    {
+      "path": "tests/extraction_cases.json",
+      "bytes": 6624,
+      "sha256": "d92624627abfed58bb3ac406dfb230afc0b49b9e99d33b0e77e5e6ef0e03db8e"
+    },
+    {
+      "path": "tests/local_test_result.txt",
+      "bytes": 3740,
+      "sha256": "b643361b8a6a6e3e664861027c191b539a55802308ac92ae1271864bc3729e55"
+    },
+    {
+      "path": "tests/platform_acceptance.md",
+      "bytes": 5047,
+      "sha256": "678e18fba826661851f14c52468c79838109bc770750c8d65cea203d8b7b9b1b"
+    },
+    {
+      "path": "tests/run_group_demo.py",
+      "bytes": 4598,
+      "sha256": "bcf39c3e3a62055725e0eaf1729d4da894cafb81bbfea81bf53626fe88ceef32"
+    },
+    {
+      "path": "tests/test_engine.py",
+      "bytes": 6886,
+      "sha256": "f09085e92b2ba5272fd9bbf4a3b1257bf014e0e0f10c8473f7d517f5d9523341"
+    },
+    {
+      "path": "tests/test_major_groups.py",
+      "bytes": 8118,
+      "sha256": "dd5768433052dae72ccf4cccb8190eb04d6e2c7491eb27230c50ed83cb357bf0"
+    },
+    {
+      "path": "tests/update_verification.json",
+      "bytes": 875,
+      "sha256": "adb92ffe0c7d2841e2f4c6b86018ef7a73219249f268cbcbd141cd53ce054311"
+    },
+    {
+      "path": "workflow/node_contracts.md",
+      "bytes": 13911,
+      "sha256": "84dc77199238d103150c4de9b711b8293058bce5bd150eab525a231b47222061"
+    },
+    {
+      "path": "workflow/WF_Explore_One_演示与大类修订.md",
+      "bytes": 7195,
+      "sha256": "23cf1fe228ba8f42293a01a198bb3e261742fdc8f9928fc4d014fb3751d028ed"
+    }
+  ]
+}

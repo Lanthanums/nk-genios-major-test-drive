@@ -1,0 +1,198 @@
+DLVersion: v2
+Depends:
+  AppMap: {}
+  DataSourceMap: {}
+  DatabaseMap: {}
+  KnowledgeMap:
+    00000000-0000-4000-8000-000000000001:
+      Desc: 专业试驾场资源来源卡：解释三类体验活动的含义与后续学习资源，附原始链接与资料年份
+      ID: 00000000-0000-4000-8000-000000000001
+      LogoPath: ''
+      Name: KB_NK_Explore
+      ResourceWorkspaceID: personal-00000000000000000000
+  ModelMap: {}
+  PluginMap: {}
+  QADataSetMap: {}
+  TermDatasetMap: {}
+  ToolMap: {}
+  WorkflowMap: {}
+Desc: 实例workflow
+DisplayName: 知识库调用实例
+FlowType: Workflow
+ID: db96dal4shhas0anle00
+LogoPath: ''
+MetaType: Workflow
+Nodes:
+- Code: db96dal4shhas0anle0g
+  Configs:
+    Start:
+      InputSchema:
+      - Desc: 用户问的问题
+        Name: q
+        Required: true
+        Type: 0
+      OutputSchema:
+      - Desc: 用户问的问题
+        Name: q
+        Required: true
+        Type: 0
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: db96dal4shhas0anle0g
+  Layout:
+    X: 209.5
+    "Y": 257.5
+  Name: Start
+  Type: Start
+- Code: db96dal4shhas0anle10
+  Configs:
+    End:
+      InputVariables:
+      - Name: output
+        RefType: node_field
+      OutputType: Variable
+  Depends:
+  - NodeCode: db96dbd4shhbpg92a0p0
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: db96dal4shhas0anle10
+  Layout:
+    X: 1027.5
+    "Y": 257.5
+  Name: End
+  Type: End
+- Code: db96dbd4shhbpg92a0p0
+  Configs:
+    Knowledge:
+      ConfigVersion: 2
+      ContextComponents:
+      - id
+      - video_metadata
+      - video_frames
+      - content
+      DatabaseInfos:
+      - Description: 专业试驾场资源来源卡：解释三类体验活动的含义与后续学习资源，附原始链接与资料年份
+        ID: 00000000-0000-4000-8000-000000000001
+        Icon: ''
+        Name: KB_NK_Explore
+      DatasetParamsVariable:
+      - JsonValue: '"00000000-0000-4000-8000-000000000001"'
+        Name: dataset_params[0].dataset_id
+        RefType: value
+      Expand: false
+      ExpandNum: null
+      KnowledgeRange:
+      - 00000000-0000-4000-8000-000000000001
+      OutputSchema:
+      - Name: outputList
+        Required: true
+        SubParameters:
+        - Name: output
+          Required: true
+          Type: 0
+        - Name: metadata
+          Required: true
+          SubParameters:
+          - Name: score
+            Required: true
+            Type: 3
+          - Name: dataset_id
+            Required: true
+            Type: 0
+          - Name: segment_id
+            Required: true
+            Type: 0
+          - Name: document_id
+            Required: true
+            Type: 0
+          - Name: dataset_name
+            Required: true
+            Type: 0
+          - Name: document_url
+            Type: 0
+          - Name: document_name
+            Required: true
+            Type: 0
+          - Name: document_type
+            Type: 1
+          - Name: document_obs_url
+            Type: 0
+          - Name: document_file_type
+            Type: 1
+          - Name: orientations
+            SubParameters:
+            - Name: page_number
+              Required: true
+              Type: 1
+            - Name: rects
+              Required: true
+              Type: 8
+            Type: 9
+          - Name: indexes
+            SubParameters:
+            - Name: content
+              Required: true
+              Type: 0
+            - Name: score
+              Required: true
+              Type: 3
+            - Name: is_multimodal
+              Type: 2
+            Type: 9
+          - Name: video_audio_info
+            SubParameters:
+            - Name: asr_details
+              SubParameters:
+              - Name: speakers
+                Type: 5
+              - Name: text
+                Type: 0
+              - Name: end
+                Type: 3
+              - Name: start
+                Type: 3
+              Type: 9
+            - Name: asr_file_url
+              Type: 0
+            - Name: raw_file_url
+              Type: 0
+            - Name: first_last_frame_urls
+              Type: 5
+            - Name: frame_urls
+              Type: 5
+            - Name: speakers
+              Type: 5
+            - Name: start_time
+              Type: 3
+            - Name: end_time
+              Type: 3
+            - Name: duration
+              Type: 3
+            Type: 4
+          Type: 4
+        Type: 9
+      - Name: filter
+        Type: 0
+      QueryVariable:
+        Name: query
+        NodeCode: db96dal4shhas0anle0g
+        Path: q
+        RefType: node_field
+      RerankID: null
+      RetrievalSearchMethod: 0
+      ScoreThreshold: 0.5
+      TopK: 3
+  Depends:
+  - NodeCode: db96dal4shhas0anle0g
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: db96dbd4shhbpg92a0p0
+  Layout:
+    X: 618.5
+    "Y": 257.5
+  Name: 知识库检索01
+  Type: Knowledge
+UniqueName: db96dal4shhas0anle00
+UpdatedAt: 0
+VersionCode: '-'
+VersionName: '-'

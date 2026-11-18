@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-17",
+  "version": "2.0.0",
+  "activities": 9,
+  "fixed_cases": 27,
+  "knowledge_cards": 65,
+  "major_profiles": 33,
+  "comparison_cards": 7,
+  "concept_cards": 3,
+  "official_source_records": 36,
+  "source_unique_urls": 36,
+  "native_workflows": 4,
+  "unit_graph_and_content_tests_passed": 38,
+  "legacy_numeric_snapshots_passed": 9,
+  "independent_replay_paths_passed": 46,
+  "rebuild_all_four_yaml_byte_identical": true,
+  "baseline_test_count": 34,
+  "platform_import_tested": false,
+  "live_models_tested": false,
+  "live_retrieval_tested": false,
+  "published_online": false,
+  "backup_zip": "nk_genios_major_test_drive_kit_v1.1_before_v2_20261017.zip",
+  "backup_sha256": "068ea93963b76a74ac0e50d41a72b1e0fda46a75ace57861174f4ffffee525b6",
+  "limits": [
+    "选择理由不评分，部分选择题仍有措辞线索",
+    "开放练习只做结构与出处检查，学科正确性待审",
+    "知识卡示例不等同真实课表或实践",
+    "需在平台更新知识库索引并验收挂起/恢复与隔离"
+  ]
+}

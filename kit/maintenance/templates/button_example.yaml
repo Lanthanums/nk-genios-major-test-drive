@@ -1,0 +1,179 @@
+DLVersion: v2
+Depends:
+  AppMap: {}
+  DataSourceMap: {}
+  DatabaseMap: {}
+  KnowledgeMap: {}
+  ModelMap:
+    db46nhqldp7id25nc970:
+      Desc: 新一代全模态大模型，原生支持文本、视觉、音频统一理解，具备1M超长上下文窗口，在Coding与Agent场景表现优秀。
+      ID: db46nhqldp7id25nc970
+      LogoPath: ""
+      Name: doubao-seed-2-1-lite
+  PluginMap: {}
+  QADataSetMap: {}
+  TermDatasetMap: {}
+  ToolMap: {}
+  WorkflowMap: {}
+Desc: 演示
+DisplayName: 选项工作流演示
+FlowType: Workflow
+ID: db9ikft4shhas0anoac0
+LogoPath: ''
+MetaType: Workflow
+Nodes:
+- Code: db9ikft4shhas0anoacg
+  Configs:
+    Start:
+      InputSchema:
+      - Desc: 用户的问题
+        Name: q
+        Required: true
+        Type: 0
+      OutputSchema:
+      - Desc: 用户的问题
+        Name: q
+        Required: true
+        Type: 0
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: db9ikft4shhas0anoacg
+  Layout:
+    X: 209.5
+    "Y": 550
+  Name: Start
+  Type: Start
+- Code: db9ikft4shhas0anoad0
+  Configs:
+    End:
+      OutputType: Variable
+  Depends:
+  - NodeCode: db9ikvt4shhas0anoc20
+  - NodeCode: db9il4l4shhbpg92d62g
+  - NodeCode: db9il2t4shhbpg92d620
+  - NodeCode: db9il3t4shhas0anoc4g
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: db9ikft4shhas0anoad0
+  Layout:
+    X: 1436.5
+    "Y": 550
+  Name: End
+  Type: End
+- Code: db9ikgt4shhbpg92d4ig
+  Configs:
+    InformationGathering:
+      AnswerType: option
+      ExtractParameters: true
+      ExtractSchema:
+      - Name: ""
+        Type: 0
+      ModelConfig:
+        MaxTokens: 1024
+        ModelID: db46nhqldp7id25nc970
+        ModelName: doubao-seed-2-1-lite
+        Temperature: 0.7
+        TopP: 0.9
+      ModelInteractiveMode: direct
+      OptionConfig:
+        BranchMode: true
+        OptionType: solid
+        Options:
+        - CondID: class01
+          OptionContent: abc
+          OptionID: A
+        - CondID: class02
+          OptionContent: "123"
+          OptionID: B
+        - CondID: class03
+          OptionContent: '{{q}}'
+          OptionID: C
+        - CondID: class_other
+          OptionContent: Others
+          OptionID: Others
+      QuestionTemplate: 选择一个选项
+      ReaskConfig:
+        ReaskLimit: 3
+      TemplateVars: []
+  Depends:
+  - NodeCode: db9ikft4shhas0anoacg
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: db9ikgt4shhbpg92d4ig
+  Layout:
+    X: 618.5
+    "Y": 550
+  Name: 信息收集01
+  Type: InformationGathering
+- Code: db9ikvt4shhas0anoc20
+  Configs:
+    Message:
+      AsContext: true
+      Content: 用户选择了A：abc
+      RenderAsReasoning: false
+  Depends:
+  - NodeCode: db9ikgt4shhbpg92d4ig
+    PortID: class01
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: db9ikvt4shhas0anoc20
+  Layout:
+    X: 1027.5
+    "Y": 257.5
+  Name: 消息01
+  Type: Message
+- Code: db9il2t4shhbpg92d620
+  Configs:
+    Message:
+      AsContext: true
+      Content: 用户选择了B：123
+      RenderAsReasoning: false
+  Depends:
+  - NodeCode: db9ikgt4shhbpg92d4ig
+    PortID: class02
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: db9il2t4shhbpg92d620
+  Layout:
+    X: 1027.5
+    "Y": 647.5
+  Name: 消息02
+  Type: Message
+- Code: db9il3t4shhas0anoc4g
+  Configs:
+    Message:
+      AsContext: true
+      Content: 用户选择了C：{{q}}
+      RenderAsReasoning: false
+  Depends:
+  - NodeCode: db9ikgt4shhbpg92d4ig
+    PortID: class03
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: db9il3t4shhas0anoc4g
+  Layout:
+    X: 1027.5
+    "Y": 842.5
+  Name: 消息03
+  Type: Message
+- Code: db9il4l4shhbpg92d62g
+  Configs:
+    Message:
+      AsContext: true
+      Content: 用户回复了无关选项，需要根据内容自己判断
+      RenderAsReasoning: false
+  Depends:
+  - NodeCode: db9ikgt4shhbpg92d4ig
+    PortID: class_other
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: db9il4l4shhbpg92d62g
+  Layout:
+    X: 1027.5
+    "Y": 453.6201883461
+  Name: 消息04
+  Type: Message
+UniqueName: db9ikft4shhas0anoac0
+UpdatedAt: 0
+VersionCode: '-'
+VersionName: '-'

@@ -1,0 +1,25 @@
+{
+  "version": "2.1.0",
+  "date": "2026-10-17",
+  "unit_tests": 59,
+  "unit_tests_passed": 59,
+  "native_graph_paths": 152,
+  "native_graph_paths_passed": 152,
+  "runtime_finish_calls": 1512,
+  "legacy_numeric_snapshots": 9,
+  "activities": 9,
+  "fixed_cases": 27,
+  "knowledge_cards": 65,
+  "changed_knowledge_cards": [
+    "00_scope.md",
+    "05_faq.md"
+  ],
+  "unchanged_knowledge_cards": 63,
+  "major_profiles": 33,
+  "official_source_records": 36,
+  "native_workflows": 4,
+  "rebuild_byte_identical": true,
+  "live_import": false,
+  "live_models": false,
+  "real_retrieval": false
+}

@@ -1,0 +1,141 @@
+{
+  "engine_version": "2.1.0",
+  "case_version": "2026-10-17.1",
+  "case_id": "materials_optics",
+  "task_id": "materials",
+  "phase": 1,
+  "status": "completed",
+  "group_id": "matter",
+  "group_confirmed": true,
+  "cohort": "未提供",
+  "events": [
+    {
+      "event_id": 1,
+      "kind": "started",
+      "phase": 0,
+      "group_id": "matter",
+      "group_confirmed": true
+    },
+    {
+      "event_id": 2,
+      "kind": "proposed",
+      "phase": 0,
+      "raw_text": "透过率86%，方阻16，弯折保持95%。",
+      "plan": {
+        "choice": "A",
+        "reason": ""
+      }
+    },
+    {
+      "event_id": 3,
+      "kind": "evaluated",
+      "phase": 0,
+      "plan": {
+        "choice": "A",
+        "reason": ""
+      },
+      "result": {
+        "case_id": "materials_optics",
+        "task_id": "materials",
+        "case_version": "2026-10-17.1",
+        "phase": 0,
+        "kind": "synthetic_teaching_result",
+        "plan": {
+          "choice": "A",
+          "reason": ""
+        },
+        "feedback": "满足条件，但透过率低于90%的另一可行方案；有更好弯折表现。",
+        "supported_by_stated_criteria": false,
+        "checks": {},
+        "valid": true
+      },
+      "confirmation_raw": "确认",
+      "proposal_raw": "透过率86%，方阻16，弯折保持95%。"
+    },
+    {
+      "event_id": 4,
+      "kind": "conditions_changed",
+      "phase": 1,
+      "previous_choice": "A",
+      "previous_option": "透过率86%，方阻16，弯折保持95%。"
+    },
+    {
+      "event_id": 5,
+      "kind": "proposed",
+      "phase": 1,
+      "raw_text": "透过率94%，方阻25，弯折保持98%。",
+      "plan": {
+        "choice": "B",
+        "reason": ""
+      }
+    },
+    {
+      "event_id": 6,
+      "kind": "evaluated",
+      "phase": 1,
+      "plan": {
+        "choice": "B",
+        "reason": ""
+      },
+      "result": {
+        "case_id": "materials_optics",
+        "task_id": "materials",
+        "case_version": "2026-10-17.1",
+        "phase": 1,
+        "kind": "synthetic_teaching_result",
+        "plan": {
+          "choice": "B",
+          "reason": ""
+        },
+        "feedback": "弯折很好但方阻仍超限。",
+        "supported_by_stated_criteria": false,
+        "checks": {},
+        "valid": true
+      },
+      "confirmation_raw": "确认",
+      "proposal_raw": "透过率94%，方阻25，弯折保持98%。"
+    },
+    {
+      "event_id": 7,
+      "kind": "reflection",
+      "phase": 1,
+      "raw_text": "我原来以为透光高就够了，现在发现使用寿命也会改变选择。我还想看看真正的材料测试。\n想了解：材料物理、材料化学、光电信息科学与工程"
+    },
+    {
+      "event_id": 8,
+      "kind": "record_confirmed",
+      "phase": 1,
+      "raw_text": "确认记录"
+    }
+  ],
+  "pending_plan": null,
+  "reflection_raw": "我原来以为透光高就够了，现在发现使用寿命也会改变选择。我还想看看真正的材料测试。\n想了解：材料物理、材料化学、光电信息科学与工程",
+  "requested_majors": [
+    "材料物理",
+    "材料化学",
+    "光电信息科学与工程"
+  ],
+  "record_confirmed": true,
+  "group_raw": "物质科学",
+  "group_source": "user_self_report_not_officially_verified",
+  "pending_raw": "透过率94%，方阻25，弯折保持98%。",
+  "last_plan": {
+    "choice": "B",
+    "reason": ""
+  },
+  "last_result": {
+    "case_id": "materials_optics",
+    "task_id": "materials",
+    "case_version": "2026-10-17.1",
+    "phase": 1,
+    "kind": "synthetic_teaching_result",
+    "plan": {
+      "choice": "B",
+      "reason": ""
+    },
+    "feedback": "弯折很好但方阻仍超限。",
+    "supported_by_stated_criteria": false,
+    "checks": {},
+    "valid": true
+  }
+}

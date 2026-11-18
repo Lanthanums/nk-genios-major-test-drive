@@ -1,0 +1,166 @@
+{
+  "engine_version": "2.1.0",
+  "case_version": "2026-10-17.1",
+  "case_id": "sensor_luggage",
+  "task_id": "sensor",
+  "phase": 1,
+  "status": "stopped",
+  "group_id": "physics_opto",
+  "group_confirmed": true,
+  "cohort": "未知",
+  "events": [
+    {
+      "event_id": 1,
+      "kind": "started",
+      "phase": 0,
+      "group_id": "physics_opto",
+      "group_confirmed": true
+    },
+    {
+      "event_id": 2,
+      "kind": "proposed",
+      "phase": 0,
+      "raw_text": "我先设40分。42分已经有行李了，我更担心漏掉，所以想把分界线放低一点。",
+      "plan": {
+        "threshold": 40.0,
+        "reason": "我更担心漏掉"
+      }
+    },
+    {
+      "event_id": 3,
+      "kind": "evaluated",
+      "phase": 0,
+      "plan": {
+        "threshold": 40.0,
+        "reason": "我更担心漏掉"
+      },
+      "result": {
+        "case_id": "sensor_luggage",
+        "task_id": "sensor",
+        "case_version": "2026-10-17.1",
+        "phase": 0,
+        "kind": "synthetic_teaching_result",
+        "plan": {
+          "threshold": 40.0,
+          "reason": "我更担心漏掉"
+        },
+        "valid": true,
+        "tp": 7,
+        "fp": 2,
+        "fn": 0,
+        "tn": 3,
+        "sample_count": 12,
+        "false_alarm_weight": 1,
+        "miss_weight": 3,
+        "loss": 2
+      },
+      "confirmation_raw": "确认",
+      "proposal_raw": "我先设40分。42分已经有行李了，我更担心漏掉，所以想把分界线放低一点。"
+    },
+    {
+      "event_id": 4,
+      "kind": "recomputed",
+      "phase": 1,
+      "plan": {
+        "threshold": 40.0,
+        "reason": "我更担心漏掉"
+      },
+      "result": {
+        "case_id": "sensor_luggage",
+        "task_id": "sensor",
+        "case_version": "2026-10-17.1",
+        "phase": 1,
+        "kind": "synthetic_teaching_result",
+        "plan": {
+          "threshold": 40.0,
+          "reason": "我更担心漏掉"
+        },
+        "valid": true,
+        "tp": 7,
+        "fp": 2,
+        "fn": 0,
+        "tn": 3,
+        "sample_count": 12,
+        "false_alarm_weight": 5,
+        "miss_weight": 1,
+        "loss": 10
+      }
+    },
+    {
+      "event_id": 5,
+      "kind": "proposed",
+      "phase": 1,
+      "raw_text": "那就改成65分吧。\n误报现在代价更高，我愿意先少报一点，再看看漏掉了哪些。",
+      "plan": {
+        "threshold": 65.0,
+        "reason": "误报现在代价更高"
+      }
+    },
+    {
+      "event_id": 6,
+      "kind": "evaluated",
+      "phase": 1,
+      "plan": {
+        "threshold": 65.0,
+        "reason": "误报现在代价更高"
+      },
+      "result": {
+        "case_id": "sensor_luggage",
+        "task_id": "sensor",
+        "case_version": "2026-10-17.1",
+        "phase": 1,
+        "kind": "synthetic_teaching_result",
+        "plan": {
+          "threshold": 65.0,
+          "reason": "误报现在代价更高"
+        },
+        "valid": true,
+        "tp": 4,
+        "fp": 0,
+        "fn": 3,
+        "tn": 5,
+        "sample_count": 12,
+        "false_alarm_weight": 5,
+        "miss_weight": 1,
+        "loss": 3
+      },
+      "confirmation_raw": "确认",
+      "proposal_raw": "那就改成65分吧。\n误报现在代价更高，我愿意先少报一点，再看看漏掉了哪些。"
+    },
+    {
+      "event_id": 7,
+      "kind": "stopped",
+      "phase": 1,
+      "raw_text": ""
+    }
+  ],
+  "pending_plan": null,
+  "reflection_raw": "",
+  "requested_majors": [],
+  "record_confirmed": false,
+  "pending_raw": "那就改成65分吧。\n误报现在代价更高，我愿意先少报一点，再看看漏掉了哪些。",
+  "last_plan": {
+    "threshold": 65.0,
+    "reason": "误报现在代价更高"
+  },
+  "last_result": {
+    "case_id": "sensor_luggage",
+    "task_id": "sensor",
+    "case_version": "2026-10-17.1",
+    "phase": 1,
+    "kind": "synthetic_teaching_result",
+    "plan": {
+      "threshold": 65.0,
+      "reason": "误报现在代价更高"
+    },
+    "valid": true,
+    "tp": 4,
+    "fp": 0,
+    "fn": 3,
+    "tn": 5,
+    "sample_count": 12,
+    "false_alarm_weight": 5,
+    "miss_weight": 1,
+    "loss": 3
+  }
+}

@@ -1,0 +1,83 @@
+test_27_case_complete_two_phase_and_record_replay (test_engine.RuntimeTests.test_27_case_complete_two_phase_and_record_replay) ... ok
+test_ambiguous_confirmation_keeps_pending_and_recovers (test_engine.RuntimeTests.test_ambiguous_confirmation_keeps_pending_and_recovers) ... ok
+test_catalog_is_9_by_3_and_no_answer_leak (test_engine.RuntimeTests.test_catalog_is_9_by_3_and_no_answer_leak) ... ok
+test_choice_all_options_phases_use_reviewed_outcomes (test_engine.RuntimeTests.test_choice_all_options_phases_use_reviewed_outcomes) ... ok
+test_choice_report_preserves_each_phase_option_and_student_reason (test_engine.RuntimeTests.test_choice_report_preserves_each_phase_option_and_student_reason) ... ok
+test_control_trajectory_obeys_recurrence_and_limit (test_engine.RuntimeTests.test_control_trajectory_obeys_recurrence_and_limit) ... ok
+test_deterministic_auto_selection_exclusion_and_legacy_alias (test_engine.RuntimeTests.test_deterministic_auto_selection_exclusion_and_legacy_alias) ... ok
+test_explicit_replacement_confirmation (test_engine.RuntimeTests.test_explicit_replacement_confirmation) ... ok
+test_failed_mutation_returns_exact_original_state (test_engine.RuntimeTests.test_failed_mutation_returns_exact_original_state) ... ok
+test_hint_and_stop_retained_no_inference (test_engine.RuntimeTests.test_hint_and_stop_retained_no_inference) ... ok
+test_independently_reviewed_case_arithmetic (test_engine.RuntimeTests.test_independently_reviewed_case_arithmetic) ... ok
+test_invalid_numeric_inputs_and_state_are_rejected (test_engine.RuntimeTests.test_invalid_numeric_inputs_and_state_are_rejected) ... ok
+test_model_clarification_and_bad_quote_cannot_execute (test_engine.RuntimeTests.test_model_clarification_and_bad_quote_cannot_execute) ... ok
+test_original_numeric_fixture_results (test_engine.RuntimeTests.test_original_numeric_fixture_results) ... ok
+test_out_of_order_and_duplicate_calculation_blocked (test_engine.RuntimeTests.test_out_of_order_and_duplicate_calculation_blocked) ... ok
+test_record_correction_preserves_facts (test_engine.RuntimeTests.test_record_correction_preserves_facts) ... ok
+test_route_constraints_are_not_silently_repaired (test_engine.RuntimeTests.test_route_constraints_are_not_silently_repaired) ... ok
+test_scope_group_unknown_and_same_name_special_class (test_engine.RuntimeTests.test_scope_group_unknown_and_same_name_special_class) ... ok
+test_sensor_counts_partition_and_loss_arithmetic (test_engine.RuntimeTests.test_sensor_counts_partition_and_loss_arithmetic) ... ok
+test_bad_score_or_bad_hit_does_not_crash (test_knowledge.KnowledgeTests.test_bad_score_or_bad_hit_does_not_crash) ... ok
+test_draft_provenance_and_real_url_pass (test_knowledge.KnowledgeTests.test_draft_provenance_and_real_url_pass) ... ok
+test_every_group_member_profile_has_valid_sources (test_knowledge.KnowledgeTests.test_every_group_member_profile_has_valid_sources) ... ok
+test_grounded_answer_and_empty_retrieval (test_knowledge.KnowledgeTests.test_grounded_answer_and_empty_retrieval) ... ok
+test_knowledge_cards_and_case_provenance (test_knowledge.KnowledgeTests.test_knowledge_cards_and_case_provenance) ... ok
+test_unsupported_quote_and_hidden_missing_link_rejected (test_knowledge.KnowledgeTests.test_unsupported_quote_and_hidden_missing_link_rejected) ... ok
+test_all_27_cases_offline_full_paths (test_workflows.NativeWorkflowTests.test_all_27_cases_offline_full_paths) ... ok
+test_all_eight_group_profiles_and_unknown (test_workflows.NativeWorkflowTests.test_all_eight_group_profiles_and_unknown) ... ok
+test_all_four_native_graphs (test_workflows.NativeWorkflowTests.test_all_four_native_graphs) ... ok
+test_ambiguous_input_specific_clarification_and_short_correction (test_workflows.NativeWorkflowTests.test_ambiguous_input_specific_clarification_and_short_correction) ... ok
+test_explicit_case_selection_rejects_wrong_family (test_workflows.NativeWorkflowTests.test_explicit_case_selection_rejects_wrong_family) ... ok
+test_failed_model_json_can_be_corrected (test_workflows.NativeWorkflowTests.test_failed_model_json_can_be_corrected) ... ok
+test_kb_bridge_present_and_no_hit_fallback (test_workflows.NativeWorkflowTests.test_kb_bridge_present_and_no_hit_fallback) ... ok
+test_negative_mention_does_not_become_intent (test_workflows.NativeWorkflowTests.test_negative_mention_does_not_become_intent) ... ok
+test_record_decline_and_revised_intent (test_workflows.NativeWorkflowTests.test_record_decline_and_revised_intent) ... ok
+test_stop_before_and_during_confirmation (test_workflows.NativeWorkflowTests.test_stop_before_and_during_confirmation) ... ok
+test_stop_during_reflection_and_report_confirmation (test_workflows.NativeWorkflowTests.test_stop_during_reflection_and_report_confirmation) ... ok
+test_two_knowledge_workflows_and_empty_context (test_workflows.NativeWorkflowTests.test_two_knowledge_workflows_and_empty_context) ... ok
+test_vague_twice_stops_without_calculation (test_workflows.NativeWorkflowTests.test_vague_twice_stops_without_calculation) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.068s
+
+OK
+
+PASS: 9/9 original snapshots; numeric/feasibility fields match within 1e-6
+
+{
+  "graphs": 4,
+  "scenarios": 46,
+  "known_failures": [],
+  "code_coverage": [
+    {
+      "file": "WF_Explore_One_v2.yaml",
+      "covered": 36,
+      "total": 38,
+      "uncovered": [
+        "XAdvanceError",
+        "XDraftError"
+      ]
+    },
+    {
+      "file": "WF_Explore_One_v2_Offline.yaml",
+      "covered": 34,
+      "total": 36,
+      "uncovered": [
+        "XAdvanceError",
+        "XDraftError"
+      ]
+    },
+    {
+      "file": "WF_KB_Practice_Draft_v2.yaml",
+      "covered": 2,
+      "total": 2,
+      "uncovered": []
+    },
+    {
+      "file": "WF_Major_Knowledge_v2.yaml",
+      "covered": 2,
+      "total": 2,
+      "uncovered": []
+    }
+  ]
+}

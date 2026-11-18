@@ -1,0 +1,66 @@
+test_buttons_supply_exact_phase_option (test_adapter.AdapterTests.test_buttons_supply_exact_phase_option) ... ok
+test_explicit_group_reuse_and_ambiguity (test_adapter.AdapterTests.test_explicit_group_reuse_and_ambiguity) ... ok
+test_partial_report_and_no_raw_braces (test_adapter.AdapterTests.test_partial_report_and_no_raw_braces) ... ok
+test_reflection_revision_preserves_majors (test_adapter.AdapterTests.test_reflection_revision_preserves_majors) ... ok
+test_schema_outputs_complete_and_typed (test_adapter.AdapterTests.test_schema_outputs_complete_and_typed) ... ok
+test_selection_finish_no_computation (test_adapter.AdapterTests.test_selection_finish_no_computation) ... ok
+test_27_case_complete_two_phase_and_record_replay (test_engine.RuntimeTests.test_27_case_complete_two_phase_and_record_replay) ... ok
+test_ambiguous_confirmation_keeps_pending_and_recovers (test_engine.RuntimeTests.test_ambiguous_confirmation_keeps_pending_and_recovers) ... ok
+test_catalog_is_9_by_3_and_no_answer_leak (test_engine.RuntimeTests.test_catalog_is_9_by_3_and_no_answer_leak) ... ok
+test_choice_all_options_phases_use_reviewed_outcomes (test_engine.RuntimeTests.test_choice_all_options_phases_use_reviewed_outcomes) ... ok
+test_choice_report_preserves_each_phase_option_and_student_reason (test_engine.RuntimeTests.test_choice_report_preserves_each_phase_option_and_student_reason) ... ok
+test_control_trajectory_obeys_recurrence_and_limit (test_engine.RuntimeTests.test_control_trajectory_obeys_recurrence_and_limit) ... ok
+test_deterministic_auto_selection_exclusion_and_legacy_alias (test_engine.RuntimeTests.test_deterministic_auto_selection_exclusion_and_legacy_alias) ... ok
+test_explicit_replacement_confirmation (test_engine.RuntimeTests.test_explicit_replacement_confirmation) ... ok
+test_failed_mutation_returns_exact_original_state (test_engine.RuntimeTests.test_failed_mutation_returns_exact_original_state) ... ok
+test_hint_and_stop_retained_no_inference (test_engine.RuntimeTests.test_hint_and_stop_retained_no_inference) ... ok
+test_independently_reviewed_case_arithmetic (test_engine.RuntimeTests.test_independently_reviewed_case_arithmetic) ... ok
+test_invalid_numeric_inputs_and_state_are_rejected (test_engine.RuntimeTests.test_invalid_numeric_inputs_and_state_are_rejected) ... ok
+test_model_clarification_and_bad_quote_cannot_execute (test_engine.RuntimeTests.test_model_clarification_and_bad_quote_cannot_execute) ... ok
+test_original_numeric_fixture_results (test_engine.RuntimeTests.test_original_numeric_fixture_results) ... ok
+test_out_of_order_and_duplicate_calculation_blocked (test_engine.RuntimeTests.test_out_of_order_and_duplicate_calculation_blocked) ... ok
+test_record_correction_preserves_facts (test_engine.RuntimeTests.test_record_correction_preserves_facts) ... ok
+test_route_constraints_are_not_silently_repaired (test_engine.RuntimeTests.test_route_constraints_are_not_silently_repaired) ... ok
+test_scope_group_unknown_and_same_name_special_class (test_engine.RuntimeTests.test_scope_group_unknown_and_same_name_special_class) ... ok
+test_sensor_counts_partition_and_loss_arithmetic (test_engine.RuntimeTests.test_sensor_counts_partition_and_loss_arithmetic) ... ok
+test_bad_score_or_bad_hit_does_not_crash (test_knowledge.KnowledgeTests.test_bad_score_or_bad_hit_does_not_crash) ... ok
+test_draft_provenance_and_real_url_pass (test_knowledge.KnowledgeTests.test_draft_provenance_and_real_url_pass) ... ok
+test_every_group_member_profile_has_valid_sources (test_knowledge.KnowledgeTests.test_every_group_member_profile_has_valid_sources) ... ok
+test_grounded_answer_and_empty_retrieval (test_knowledge.KnowledgeTests.test_grounded_answer_and_empty_retrieval) ... ok
+test_knowledge_cards_and_case_provenance (test_knowledge.KnowledgeTests.test_knowledge_cards_and_case_provenance) ... ok
+test_unsupported_quote_and_hidden_missing_link_rejected (test_knowledge.KnowledgeTests.test_unsupported_quote_and_hidden_missing_link_rejected) ... ok
+test_actual_draft_graph_checked_and_rejected (test_knowledge_workflows_v21.KnowledgeGraphs.test_actual_draft_graph_checked_and_rejected) ... ok
+test_actual_knowledge_graph_validated_answer_and_empty (test_knowledge_workflows_v21.KnowledgeGraphs.test_actual_knowledge_graph_validated_answer_and_empty) ... ok
+test_27_reports_have_no_backend_identifiers (test_runtime_v21.RuntimeRepairs.test_27_reports_have_no_backend_identifiers) ... ok
+test_control_prompt_shows_all_update_inputs (test_runtime_v21.RuntimeRepairs.test_control_prompt_shows_all_update_inputs) ... ok
+test_exit_at_every_stage_all_27_cases (test_runtime_v21.RuntimeRepairs.test_exit_at_every_stage_all_27_cases) ... ok
+test_explicit_finish_natural_variants (test_runtime_v21.RuntimeRepairs.test_explicit_finish_natural_variants) ... ok
+test_failed_input_retains_report_and_valid_state (test_runtime_v21.RuntimeRepairs.test_failed_input_retains_report_and_valid_state) ... ok
+test_finished_twice_has_no_duplicate_events (test_runtime_v21.RuntimeRepairs.test_finished_twice_has_no_duplicate_events) ... ok
+test_markdown_quote_does_not_append_punctuation (test_runtime_v21.RuntimeRepairs.test_markdown_quote_does_not_append_punctuation) ... ok
+test_model_alone_cannot_invent_end_intent (test_runtime_v21.RuntimeRepairs.test_model_alone_cannot_invent_end_intent) ... ok
+test_natural_reflection_revision_does_not_auto_confirm (test_runtime_v21.RuntimeRepairs.test_natural_reflection_revision_does_not_auto_confirm) ... ok
+test_numeric_core_matches_9_golden_snapshots (test_runtime_v21.RuntimeRepairs.test_numeric_core_matches_9_golden_snapshots) ... ok
+test_skip_uncertain_reflection_logs_without_invented_interest (test_runtime_v21.RuntimeRepairs.test_skip_uncertain_reflection_logs_without_invented_interest) ... ok
+test_stop_preserves_unconfirmed_proposal (test_runtime_v21.RuntimeRepairs.test_stop_preserves_unconfirmed_proposal) ... ok
+test_invalid_practice_source_still_rejected (test_support_v21.SupportFormatting.test_invalid_practice_source_still_rejected) ... ok
+test_made_up_quote_still_rejected (test_support_v21.SupportFormatting.test_made_up_quote_still_rejected) ... ok
+test_mismatched_source_url_still_rejected (test_support_v21.SupportFormatting.test_mismatched_source_url_still_rejected) ... ok
+test_no_hits_do_not_synthesize_answer (test_support_v21.SupportFormatting.test_no_hits_do_not_synthesize_answer) ... ok
+test_prose_invented_url_still_rejected (test_support_v21.SupportFormatting.test_prose_invented_url_still_rejected) ... ok
+test_quote_escapes_student_markup (test_support_v21.SupportFormatting.test_quote_escapes_student_markup) ... ok
+test_valid_answer_formatted_without_quote_punctuation (test_support_v21.SupportFormatting.test_valid_answer_formatted_without_quote_punctuation) ... ok
+test_valid_practice_is_marked_draft (test_support_v21.SupportFormatting.test_valid_practice_is_marked_draft) ... ok
+test_direct_reports_after_each_attempt (test_workflows.NativeWorkflowV21Tests.test_direct_reports_after_each_attempt) ... ok
+test_every_native_button_and_other (test_workflows.NativeWorkflowV21Tests.test_every_native_button_and_other) ... ok
+test_known_and_selected_groups (test_workflows.NativeWorkflowV21Tests.test_known_and_selected_groups) ... ok
+test_natural_finish_at_free_reply_nodes (test_workflows.NativeWorkflowV21Tests.test_natural_finish_at_free_reply_nodes) ... ok
+test_quotes_and_reflection_revision (test_workflows.NativeWorkflowV21Tests.test_quotes_and_reflection_revision) ... ok
+test_structure_and_27_cases_per_yaml (test_workflows.NativeWorkflowV21Tests.test_structure_and_27_cases_per_yaml) ... ok
+
+----------------------------------------------------------------------
+Ran 59 tests in 0.436s
+
+OK
+
+PASS: 9/9 original snapshots; numeric/feasibility fields match within 1e-6

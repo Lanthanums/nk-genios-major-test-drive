@@ -1,0 +1,98 @@
+DLVersion: v2
+Depends:
+  AppMap: {}
+  DataSourceMap: {}
+  DatabaseMap: {}
+  KnowledgeMap: {}
+  ModelMap: {}
+  PluginMap: {}
+  QADataSetMap: {}
+  TermDatasetMap: {}
+  ToolMap: {}
+  WorkflowMap: {}
+Desc: 探针A：最小代码节点导入测试，验证工作流导入格式本身。
+DisplayName: WF_Probe_A_Minimal
+FlowType: Workflow
+ID: dbprobe0a000000000001
+LogoPath: ''
+MetaType: Workflow
+Nodes:
+- Code: dbprobe0a000000000001a1
+  Configs:
+    Start:
+      InputSchema:
+      - Name: task_id
+        Type: 0
+        Required: true
+        Desc: 探针入口参数
+      - Name: reported_group_text
+        Type: 0
+        Required: true
+        Desc: 探针入口参数
+      OutputSchema:
+      - Name: task_id
+        Type: 0
+        Required: true
+        Desc: 探针入口参数
+      - Name: reported_group_text
+        Type: 0
+        Required: true
+        Desc: 探针入口参数
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: dbprobe0a000000000001a1
+  Layout:
+    X: 180
+    Y: 260
+  Name: Start
+  Type: Start
+  Depends: []
+- Code: dbprobe0a000000000001b2
+  Configs:
+    Code:
+      Code: "def handler(params):\n    return {\"ok\": True, \"final_text\": \"probe ok: \" + params.get(\"task_id\", \"\")}\n"
+      InputVariables:
+      - JsonValue: '"init"'
+        Name: op
+        RefType: value
+      Language: 1
+      OutputSchema:
+      - Name: ok
+        Type: 2
+      - Name: final_text
+        Type: 0
+      Retries: 0
+      TimeoutSeconds: 120
+  Depends:
+  - NodeCode: dbprobe0a000000000001a1
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: dbprobe0a000000000001b2
+  Layout:
+    X: 560
+    Y: 260
+  Name: ProbeCode
+  Type: Code
+- Code: dbprobe0a000000000001c3
+  Configs:
+    End:
+      InputVariables:
+      - Name: final_text
+        NodeCode: dbprobe0a000000000001b2
+        Path: final_text
+        RefType: node_field
+      OutputType: Variable
+  Depends:
+  - NodeCode: dbprobe0a000000000001b2
+  ErrorConfig:
+    ErrorConfigType: None
+  ID: dbprobe0a000000000001c3
+  Layout:
+    X: 940
+    Y: 260
+  Name: End
+  Type: End
+UniqueName: dbprobe0a000000000001
+UpdatedAt: 0
+VersionCode: '-'
+VersionName: '-'

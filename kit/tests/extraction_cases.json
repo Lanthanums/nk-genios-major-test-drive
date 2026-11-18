@@ -1,0 +1,467 @@
+{
+  "notice": "61条人工期望样例；未用于真实模型端到端提取测试，不作准确率声明。自然退出另有确定性运行层回归。",
+  "cases": [
+    {
+      "case_id": "route_campus",
+      "phase": 0,
+      "raw_text": "我选S-A-B-C-T，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "path": [
+          "S",
+          "A",
+          "B",
+          "C",
+          "T"
+        ]
+      }
+    },
+    {
+      "case_id": "route_campus",
+      "phase": 0,
+      "raw_text": "高一点或者低一点都想试，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "route_coldchain",
+      "phase": 0,
+      "raw_text": "我选S-A-C-T，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "path": [
+          "S",
+          "A",
+          "C",
+          "T"
+        ]
+      }
+    },
+    {
+      "case_id": "route_coldchain",
+      "phase": 0,
+      "raw_text": "高一点或者低一点都想试，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "route_relay",
+      "phase": 0,
+      "raw_text": "我选S-A-T，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "path": [
+          "S",
+          "A",
+          "T"
+        ]
+      }
+    },
+    {
+      "case_id": "route_relay",
+      "phase": 0,
+      "raw_text": "高一点或者低一点都想试，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "sensor_luggage",
+      "phase": 0,
+      "raw_text": "我选40，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "threshold": 40.0
+      }
+    },
+    {
+      "case_id": "sensor_luggage",
+      "phase": 0,
+      "raw_text": "高一点或者低一点都想试，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "sensor_water",
+      "phase": 0,
+      "raw_text": "我选40，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "threshold": 40.0
+      }
+    },
+    {
+      "case_id": "sensor_water",
+      "phase": 0,
+      "raw_text": "高一点或者低一点都想试，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "sensor_artifact",
+      "phase": 0,
+      "raw_text": "我选40，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "threshold": 40.0
+      }
+    },
+    {
+      "case_id": "sensor_artifact",
+      "phase": 0,
+      "raw_text": "高一点或者低一点都想试，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "control_cart",
+      "phase": 0,
+      "raw_text": "我选1.6，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "k": 1.6
+      }
+    },
+    {
+      "case_id": "control_cart",
+      "phase": 0,
+      "raw_text": "高一点或者低一点都想试，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "control_greenhouse",
+      "phase": 0,
+      "raw_text": "我选1.6，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "k": 1.6
+      }
+    },
+    {
+      "case_id": "control_greenhouse",
+      "phase": 0,
+      "raw_text": "高一点或者低一点都想试，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "control_storage",
+      "phase": 0,
+      "raw_text": "我选1.6，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "k": 1.6
+      }
+    },
+    {
+      "case_id": "control_storage",
+      "phase": 0,
+      "raw_text": "高一点或者低一点都想试，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "experiment_growth",
+      "phase": 0,
+      "raw_text": "我选A，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "A"
+      }
+    },
+    {
+      "case_id": "experiment_growth",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "experiment_catalyst",
+      "phase": 0,
+      "raw_text": "我选C，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "C"
+      }
+    },
+    {
+      "case_id": "experiment_catalyst",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "experiment_fluorescence",
+      "phase": 0,
+      "raw_text": "我选B，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "B"
+      }
+    },
+    {
+      "case_id": "experiment_fluorescence",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "evidence_survey",
+      "phase": 0,
+      "raw_text": "我选A，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "A"
+      }
+    },
+    {
+      "case_id": "evidence_survey",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "evidence_leakage",
+      "phase": 0,
+      "raw_text": "我选C，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "C"
+      }
+    },
+    {
+      "case_id": "evidence_leakage",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "evidence_quantum",
+      "phase": 0,
+      "raw_text": "我选B，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "B"
+      }
+    },
+    {
+      "case_id": "evidence_quantum",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "resource_energy",
+      "phase": 0,
+      "raw_text": "我选A，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "A"
+      }
+    },
+    {
+      "case_id": "resource_energy",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "resource_samples",
+      "phase": 0,
+      "raw_text": "我选C，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "C"
+      }
+    },
+    {
+      "case_id": "resource_samples",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "resource_bandwidth",
+      "phase": 0,
+      "raw_text": "我选B，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "B"
+      }
+    },
+    {
+      "case_id": "resource_bandwidth",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "debug_boundary",
+      "phase": 0,
+      "raw_text": "我选A，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "A"
+      }
+    },
+    {
+      "case_id": "debug_boundary",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "debug_calibration",
+      "phase": 0,
+      "raw_text": "我选C，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "C"
+      }
+    },
+    {
+      "case_id": "debug_calibration",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "debug_packets",
+      "phase": 0,
+      "raw_text": "我选B，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "B"
+      }
+    },
+    {
+      "case_id": "debug_packets",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "materials_shell",
+      "phase": 0,
+      "raw_text": "我选A，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "A"
+      }
+    },
+    {
+      "case_id": "materials_shell",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "materials_adsorption",
+      "phase": 0,
+      "raw_text": "我选C，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "C"
+      }
+    },
+    {
+      "case_id": "materials_adsorption",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "materials_optics",
+      "phase": 0,
+      "raw_text": "我选B，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "B"
+      }
+    },
+    {
+      "case_id": "materials_optics",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "finance_promotion",
+      "phase": 0,
+      "raw_text": "我选A，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "A"
+      }
+    },
+    {
+      "case_id": "finance_promotion",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "finance_fraud",
+      "phase": 0,
+      "raw_text": "我选C，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "C"
+      }
+    },
+    {
+      "case_id": "finance_fraud",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "finance_publicdata",
+      "phase": 0,
+      "raw_text": "我选B，想先按题目给的条件试一下。",
+      "expected_action": "submit",
+      "expected_plan": {
+        "choice": "B"
+      }
+    },
+    {
+      "case_id": "finance_publicdata",
+      "phase": 0,
+      "raw_text": "A或者B，我还没决定",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "sensor_luggage",
+      "phase": 1,
+      "raw_text": "我已经做了两次，想结束直接拿报告",
+      "expected_action": "stop"
+    },
+    {
+      "case_id": "sensor_luggage",
+      "phase": 1,
+      "raw_text": "不想继续了，生成报告",
+      "expected_action": "stop"
+    },
+    {
+      "case_id": "sensor_luggage",
+      "phase": 1,
+      "raw_text": "结束并看记录",
+      "expected_action": "stop"
+    },
+    {
+      "case_id": "sensor_luggage",
+      "phase": 1,
+      "raw_text": "我不想结束",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "sensor_luggage",
+      "phase": 1,
+      "raw_text": "如果结束会怎样",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "sensor_luggage",
+      "phase": 1,
+      "raw_text": "我看到了结束按钮",
+      "expected_action": "clarify"
+    },
+    {
+      "case_id": "sensor_luggage",
+      "phase": 1,
+      "raw_text": "你说的“结束”是什么意思",
+      "expected_action": "clarify"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "engine_version": "2.1.0",
+  "case_version": "2026-10-17.1",
+  "case_id": "route_campus",
+  "task_id": "route",
+  "phase": 0,
+  "status": "stopped",
+  "group_id": "information",
+  "group_confirmed": true,
+  "cohort": "未知",
+  "events": [
+    {
+      "event_id": 1,
+      "kind": "started",
+      "phase": 0,
+      "group_id": "information",
+      "group_confirmed": true
+    },
+    {
+      "event_id": 2,
+      "kind": "proposed",
+      "phase": 0,
+      "raw_text": "从S出发，经过A、B、C，再到T。我先选这条，单段时间看起来都不长。",
+      "plan": {
+        "path": [
+          "S",
+          "A",
+          "B",
+          "C",
+          "T"
+        ],
+        "reason": "单段时间看起来都不长"
+      }
+    },
+    {
+      "event_id": 3,
+      "kind": "evaluated",
+      "phase": 0,
+      "plan": {
+        "path": [
+          "S",
+          "A",
+          "B",
+          "C",
+          "T"
+        ],
+        "reason": "单段时间看起来都不长"
+      },
+      "result": {
+        "case_id": "route_campus",
+        "task_id": "route",
+        "case_version": "2026-10-17.1",
+        "phase": 0,
+        "kind": "synthetic_teaching_result",
+        "plan": {
+          "path": [
+            "S",
+            "A",
+            "B",
+            "C",
+            "T"
+          ],
+          "reason": "单段时间看起来都不长"
+        },
+        "valid": true,
+        "problems": [],
+        "minutes": 8,
+        "unit": "分钟",
+        "reference_min_minutes": 8,
+        "deadline": null,
+        "meets_deadline": null,
+        "any_path_meets_deadline": null
+      },
+      "confirmation_raw": "确认",
+      "proposal_raw": "从S出发，经过A、B、C，再到T。我先选这条，单段时间看起来都不长。"
+    },
+    {
+      "event_id": 4,
+      "kind": "stopped",
+      "phase": 0,
+      "raw_text": ""
+    }
+  ],
+  "pending_plan": null,
+  "reflection_raw": "",
+  "requested_majors": [],
+  "record_confirmed": false,
+  "pending_raw": "从S出发，经过A、B、C，再到T。我先选这条，单段时间看起来都不长。",
+  "last_plan": {
+    "path": [
+      "S",
+      "A",
+      "B",
+      "C",
+      "T"
+    ],
+    "reason": "单段时间看起来都不长"
+  },
+  "last_result": {
+    "case_id": "route_campus",
+    "task_id": "route",
+    "case_version": "2026-10-17.1",
+    "phase": 0,
+    "kind": "synthetic_teaching_result",
+    "plan": {
+      "path": [
+        "S",
+        "A",
+        "B",
+        "C",
+        "T"
+      ],
+      "reason": "单段时间看起来都不长"
+    },
+    "valid": true,
+    "problems": [],
+    "minutes": 8,
+    "unit": "分钟",
+    "reference_min_minutes": 8,
+    "deadline": null,
+    "meets_deadline": null,
+    "any_path_meets_deadline": null
+  }
+}
